@@ -1,0 +1,2179 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>乳癌</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Tx__Breast_Cancer_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Tx__Breast_Cancer_files/libs/quarto-html/quarto.js"></script>
+<script src="Tx__Breast_Cancer_files/libs/quarto-html/popper.min.js"></script>
+<script src="Tx__Breast_Cancer_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Tx__Breast_Cancer_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Tx__Breast_Cancer_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Tx__Breast_Cancer_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Tx__Breast_Cancer_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Tx__Breast_Cancer_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Tx__Breast_Cancer_files/libs/bootstrap/bootstrap-762d9a5466594febb193879cb6a35051.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#第一部分認識乳癌" id="toc-第一部分認識乳癌" class="nav-link active" data-scroll-target="#第一部分認識乳癌">第一部分：認識乳癌</a>
+  <ul class="collapse">
+  <li><a href="#乳房的基本結構與功能" id="toc-乳房的基本結構與功能" class="nav-link" data-scroll-target="#乳房的基本結構與功能">1.1 乳房的基本結構與功能</a>
+  <ul class="collapse">
+  <li><a href="#乳房的解剖構造" id="toc-乳房的解剖構造" class="nav-link" data-scroll-target="#乳房的解剖構造">1.1.1 乳房的解剖構造</a></li>
+  <li><a href="#乳房的生理功能" id="toc-乳房的生理功能" class="nav-link" data-scroll-target="#乳房的生理功能">1.1.2 乳房的生理功能</a></li>
+  </ul></li>
+  <li><a href="#什麼是乳癌" id="toc-什麼是乳癌" class="nav-link" data-scroll-target="#什麼是乳癌">1.2 什麼是乳癌？</a>
+  <ul class="collapse">
+  <li><a href="#乳癌的定義與機制" id="toc-乳癌的定義與機制" class="nav-link" data-scroll-target="#乳癌的定義與機制">1.2.1 乳癌的定義與機制</a></li>
+  <li><a href="#乳癌發生的常見位置" id="toc-乳癌發生的常見位置" class="nav-link" data-scroll-target="#乳癌發生的常見位置">1.2.2 乳癌發生的常見位置</a></li>
+  </ul></li>
+  <li><a href="#良性與惡性乳房病變的區別" id="toc-良性與惡性乳房病變的區別" class="nav-link" data-scroll-target="#良性與惡性乳房病變的區別">1.3 良性與惡性乳房病變的區別</a></li>
+  <li><a href="#乳癌的侵襲與轉移特性" id="toc-乳癌的侵襲與轉移特性" class="nav-link" data-scroll-target="#乳癌的侵襲與轉移特性">1.4 乳癌的侵襲與轉移特性</a>
+  <ul class="collapse">
+  <li><a href="#癌症侵襲與轉移定義" id="toc-癌症侵襲與轉移定義" class="nav-link" data-scroll-target="#癌症侵襲與轉移定義">1.4.1 癌症侵襲與轉移定義</a></li>
+  <li><a href="#常見轉移位置" id="toc-常見轉移位置" class="nav-link" data-scroll-target="#常見轉移位置">1.4.2 常見轉移位置</a></li>
+  </ul></li>
+  <li><a href="#常見乳癌種類及其特性" id="toc-常見乳癌種類及其特性" class="nav-link" data-scroll-target="#常見乳癌種類及其特性">1.5 常見乳癌種類及其特性</a>
+  <ul class="collapse">
+  <li><a href="#非侵襲性乳癌原位癌" id="toc-非侵襲性乳癌原位癌" class="nav-link" data-scroll-target="#非侵襲性乳癌原位癌">1.5.1 非侵襲性乳癌（原位癌）</a></li>
+  <li><a href="#侵襲性乳癌" id="toc-侵襲性乳癌" class="nav-link" data-scroll-target="#侵襲性乳癌">1.5.2 侵襲性乳癌</a></li>
+  </ul></li>
+  <li><a href="#乳癌流行病學與統計現況" id="toc-乳癌流行病學與統計現況" class="nav-link" data-scroll-target="#乳癌流行病學與統計現況">1.6 乳癌流行病學與統計現況</a></li>
+  <li><a href="#乳癌防治重要性與預防措施" id="toc-乳癌防治重要性與預防措施" class="nav-link" data-scroll-target="#乳癌防治重要性與預防措施">1.7 乳癌防治重要性與預防措施</a>
+  <ul class="collapse">
+  <li><a href="#為什麼乳癌防治很重要" id="toc-為什麼乳癌防治很重要" class="nav-link" data-scroll-target="#為什麼乳癌防治很重要">1.7.1 為什麼乳癌防治很重要？</a></li>
+  <li><a href="#如何降低乳癌發生的風險" id="toc-如何降低乳癌發生的風險" class="nav-link" data-scroll-target="#如何降低乳癌發生的風險">1.7.2 如何降低乳癌發生的風險？</a></li>
+  </ul></li>
+  <li><a href="#本材料的目的與使用方式" id="toc-本材料的目的與使用方式" class="nav-link" data-scroll-target="#本材料的目的與使用方式">1.8 本材料的目的與使用方式</a></li>
+  </ul></li>
+  <li><a href="#第二部分乳癌的風險因素與基因檢測" id="toc-第二部分乳癌的風險因素與基因檢測" class="nav-link" data-scroll-target="#第二部分乳癌的風險因素與基因檢測">第二部分：乳癌的風險因素與基因檢測</a>
+  <ul class="collapse">
+  <li><a href="#乳癌的風險因素概述" id="toc-乳癌的風險因素概述" class="nav-link" data-scroll-target="#乳癌的風險因素概述">2.1 乳癌的風險因素概述</a>
+  <ul class="collapse">
+  <li><a href="#非調控因素不可改變的風險因素" id="toc-非調控因素不可改變的風險因素" class="nav-link" data-scroll-target="#非調控因素不可改變的風險因素">2.1.1 非調控因素（不可改變的風險因素）</a></li>
+  <li><a href="#可調控因素可改變的風險因素" id="toc-可調控因素可改變的風險因素" class="nav-link" data-scroll-target="#可調控因素可改變的風險因素">2.1.2 可調控因素（可改變的風險因素）</a></li>
+  </ul></li>
+  <li><a href="#遺傳性乳癌與基因檢測" id="toc-遺傳性乳癌與基因檢測" class="nav-link" data-scroll-target="#遺傳性乳癌與基因檢測">2.2 遺傳性乳癌與基因檢測</a>
+  <ul class="collapse">
+  <li><a href="#什麼是遺傳性乳癌" id="toc-什麼是遺傳性乳癌" class="nav-link" data-scroll-target="#什麼是遺傳性乳癌">2.2.1 什麼是遺傳性乳癌？</a></li>
+  <li><a href="#brca基因簡介" id="toc-brca基因簡介" class="nav-link" data-scroll-target="#brca基因簡介">2.2.2 BRCA基因簡介</a></li>
+  <li><a href="#誰適合接受基因諮詢與檢測" id="toc-誰適合接受基因諮詢與檢測" class="nav-link" data-scroll-target="#誰適合接受基因諮詢與檢測">2.2.3 誰適合接受基因諮詢與檢測？</a></li>
+  <li><a href="#基因檢測的方式與流程" id="toc-基因檢測的方式與流程" class="nav-link" data-scroll-target="#基因檢測的方式與流程">2.2.4 基因檢測的方式與流程</a></li>
+  <li><a href="#基因檢測後的可能選擇" id="toc-基因檢測後的可能選擇" class="nav-link" data-scroll-target="#基因檢測後的可能選擇">2.2.5 基因檢測後的可能選擇</a></li>
+  </ul></li>
+  <li><a href="#如何與醫療團隊討論乳癌風險與基因檢測" id="toc-如何與醫療團隊討論乳癌風險與基因檢測" class="nav-link" data-scroll-target="#如何與醫療團隊討論乳癌風險與基因檢測">2.3 如何與醫療團隊討論乳癌風險與基因檢測？</a></li>
+  <li><a href="#本章小結" id="toc-本章小結" class="nav-link" data-scroll-target="#本章小結">本章小結</a></li>
+  </ul></li>
+  <li><a href="#第三部分乳癌的診斷與評估" id="toc-第三部分乳癌的診斷與評估" class="nav-link" data-scroll-target="#第三部分乳癌的診斷與評估">第三部分：乳癌的診斷與評估</a>
+  <ul class="collapse">
+  <li><a href="#乳癌診斷的重要性與流程概述" id="toc-乳癌診斷的重要性與流程概述" class="nav-link" data-scroll-target="#乳癌診斷的重要性與流程概述">3.1 乳癌診斷的重要性與流程概述</a></li>
+  <li><a href="#臨床檢查與病史詢問" id="toc-臨床檢查與病史詢問" class="nav-link" data-scroll-target="#臨床檢查與病史詢問">3.2 臨床檢查與病史詢問</a>
+  <ul class="collapse">
+  <li><a href="#臨床觸診檢查" id="toc-臨床觸診檢查" class="nav-link" data-scroll-target="#臨床觸診檢查">3.2.1 臨床觸診檢查</a></li>
+  <li><a href="#個人與家族病史評估" id="toc-個人與家族病史評估" class="nav-link" data-scroll-target="#個人與家族病史評估">3.2.2 個人與家族病史評估</a></li>
+  </ul></li>
+  <li><a href="#乳房影像診斷工具" id="toc-乳房影像診斷工具" class="nav-link" data-scroll-target="#乳房影像診斷工具">3.3 乳房影像診斷工具</a>
+  <ul class="collapse">
+  <li><a href="#乳房攝影檢查mammography" id="toc-乳房攝影檢查mammography" class="nav-link" data-scroll-target="#乳房攝影檢查mammography">3.3.1 乳房攝影檢查（Mammography）</a></li>
+  <li><a href="#乳房超音波檢查ultrasound" id="toc-乳房超音波檢查ultrasound" class="nav-link" data-scroll-target="#乳房超音波檢查ultrasound">3.3.2 乳房超音波檢查（Ultrasound）</a></li>
+  <li><a href="#乳房磁振造影mri" id="toc-乳房磁振造影mri" class="nav-link" data-scroll-target="#乳房磁振造影mri">3.3.3 乳房磁振造影（MRI）</a></li>
+  </ul></li>
+  <li><a href="#活體組織切片檢查biopsy" id="toc-活體組織切片檢查biopsy" class="nav-link" data-scroll-target="#活體組織切片檢查biopsy">3.4 活體組織切片檢查（Biopsy）</a>
+  <ul class="collapse">
+  <li><a href="#組織切片的必要性與意義" id="toc-組織切片的必要性與意義" class="nav-link" data-scroll-target="#組織切片的必要性與意義">3.4.1 組織切片的必要性與意義</a></li>
+  <li><a href="#常見的切片檢查類型" id="toc-常見的切片檢查類型" class="nav-link" data-scroll-target="#常見的切片檢查類型">3.4.2 常見的切片檢查類型</a></li>
+  </ul></li>
+  <li><a href="#病理報告與生物標記檢測" id="toc-病理報告與生物標記檢測" class="nav-link" data-scroll-target="#病理報告與生物標記檢測">3.5 病理報告與生物標記檢測</a>
+  <ul class="collapse">
+  <li><a href="#病理報告的重要性與解讀方式" id="toc-病理報告的重要性與解讀方式" class="nav-link" data-scroll-target="#病理報告的重要性與解讀方式">3.5.1 病理報告的重要性與解讀方式</a></li>
+  <li><a href="#生物標記檢測biomarker-testing" id="toc-生物標記檢測biomarker-testing" class="nav-link" data-scroll-target="#生物標記檢測biomarker-testing">3.5.2 生物標記檢測（Biomarker Testing）</a></li>
+  </ul></li>
+  <li><a href="#her2檢測的詳細介紹" id="toc-her2檢測的詳細介紹" class="nav-link" data-scroll-target="#her2檢測的詳細介紹">3.6 HER2檢測的詳細介紹</a>
+  <ul class="collapse">
+  <li><a href="#her2檢測方法" id="toc-her2檢測方法" class="nav-link" data-scroll-target="#her2檢測方法">3.6.1 HER2檢測方法</a></li>
+  </ul></li>
+  <li><a href="#乳癌的分期系統staging" id="toc-乳癌的分期系統staging" class="nav-link" data-scroll-target="#乳癌的分期系統staging">3.7 乳癌的分期系統（Staging）</a>
+  <ul class="collapse">
+  <li><a href="#tnm分期系統說明" id="toc-tnm分期系統說明" class="nav-link" data-scroll-target="#tnm分期系統說明">3.7.1 TNM分期系統說明</a></li>
+  <li><a href="#臨床分期-vs.-病理分期" id="toc-臨床分期-vs.-病理分期" class="nav-link" data-scroll-target="#臨床分期-vs.-病理分期">3.7.2 臨床分期 vs.&nbsp;病理分期</a></li>
+  </ul></li>
+  <li><a href="#如何與醫療團隊討論診斷結果" id="toc-如何與醫療團隊討論診斷結果" class="nav-link" data-scroll-target="#如何與醫療團隊討論診斷結果">3.8 如何與醫療團隊討論診斷結果？</a></li>
+  <li><a href="#本章小結-1" id="toc-本章小結-1" class="nav-link" data-scroll-target="#本章小結-1">本章小結</a></li>
+  </ul></li>
+  <li><a href="#第四部分乳癌的治療策略與選擇" id="toc-第四部分乳癌的治療策略與選擇" class="nav-link" data-scroll-target="#第四部分乳癌的治療策略與選擇">第四部分：乳癌的治療策略與選擇</a>
+  <ul class="collapse">
+  <li><a href="#治療決策與共決策原則" id="toc-治療決策與共決策原則" class="nav-link" data-scroll-target="#治療決策與共決策原則">4.0 治療決策與共決策原則</a>
+  <ul class="collapse">
+  <li><a href="#治療目標的類型" id="toc-治療目標的類型" class="nav-link" data-scroll-target="#治療目標的類型">4.0.1 治療目標的類型</a></li>
+  <li><a href="#治療選擇比較建議" id="toc-治療選擇比較建議" class="nav-link" data-scroll-target="#治療選擇比較建議">4.0.2 治療選擇比較建議</a></li>
+  </ul></li>
+  <li><a href="#乳癌治療的整體原則與目標" id="toc-乳癌治療的整體原則與目標" class="nav-link" data-scroll-target="#乳癌治療的整體原則與目標">4.1 乳癌治療的整體原則與目標</a></li>
+  <li><a href="#非侵襲性乳癌原位癌dcis的治療策略" id="toc-非侵襲性乳癌原位癌dcis的治療策略" class="nav-link" data-scroll-target="#非侵襲性乳癌原位癌dcis的治療策略">4.2 非侵襲性乳癌（原位癌，DCIS）的治療策略</a>
+  <ul class="collapse">
+  <li><a href="#手術治療選擇" id="toc-手術治療選擇" class="nav-link" data-scroll-target="#手術治療選擇">4.2.1 手術治療選擇</a></li>
+  <li><a href="#放射線治療radiotherapy" id="toc-放射線治療radiotherapy" class="nav-link" data-scroll-target="#放射線治療radiotherapy">4.2.2 放射線治療（Radiotherapy）</a></li>
+  <li><a href="#內分泌治療hormone-therapy" id="toc-內分泌治療hormone-therapy" class="nav-link" data-scroll-target="#內分泌治療hormone-therapy">4.2.3 內分泌治療（Hormone Therapy）</a></li>
+  </ul></li>
+  <li><a href="#侵襲性乳癌的治療策略" id="toc-侵襲性乳癌的治療策略" class="nav-link" data-scroll-target="#侵襲性乳癌的治療策略">4.3 侵襲性乳癌的治療策略</a>
+  <ul class="collapse">
+  <li><a href="#手術治療" id="toc-手術治療" class="nav-link" data-scroll-target="#手術治療">4.3.1 手術治療</a></li>
+  <li><a href="#放射線治療" id="toc-放射線治療" class="nav-link" data-scroll-target="#放射線治療">4.3.2 放射線治療</a></li>
+  <li><a href="#系統性全身治療systemic-therapy" id="toc-系統性全身治療systemic-therapy" class="nav-link" data-scroll-target="#系統性全身治療systemic-therapy">4.3.3 系統性全身治療（Systemic Therapy）</a></li>
+  </ul></li>
+  <li><a href="#發炎性乳癌ibc的特殊治療考量" id="toc-發炎性乳癌ibc的特殊治療考量" class="nav-link" data-scroll-target="#發炎性乳癌ibc的特殊治療考量">4.4 發炎性乳癌（IBC）的特殊治療考量</a>
+  <ul class="collapse">
+  <li><a href="#術前系統性治療新輔助治療neoadjuvant" id="toc-術前系統性治療新輔助治療neoadjuvant" class="nav-link" data-scroll-target="#術前系統性治療新輔助治療neoadjuvant">4.4.1 術前系統性治療（新輔助治療，Neoadjuvant）</a></li>
+  <li><a href="#手術治療策略" id="toc-手術治療策略" class="nav-link" data-scroll-target="#手術治療策略">4.4.2 手術治療策略</a></li>
+  <li><a href="#術後放射治療" id="toc-術後放射治療" class="nav-link" data-scroll-target="#術後放射治療">4.4.3 術後放射治療</a></li>
+  </ul></li>
+  <li><a href="#轉移性乳癌stage-iv的治療與支持性照護" id="toc-轉移性乳癌stage-iv的治療與支持性照護" class="nav-link" data-scroll-target="#轉移性乳癌stage-iv的治療與支持性照護">4.5 轉移性乳癌（Stage IV）的治療與支持性照護</a>
+  <ul class="collapse">
+  <li><a href="#系統性治療選項" id="toc-系統性治療選項" class="nav-link" data-scroll-target="#系統性治療選項">4.5.1 系統性治療選項</a></li>
+  <li><a href="#骨轉移的治療策略" id="toc-骨轉移的治療策略" class="nav-link" data-scroll-target="#骨轉移的治療策略">4.5.2 骨轉移的治療策略</a></li>
+  <li><a href="#支持性照護與緩和治療" id="toc-支持性照護與緩和治療" class="nav-link" data-scroll-target="#支持性照護與緩和治療">4.5.3 支持性照護與緩和治療</a></li>
+  </ul></li>
+  <li><a href="#特殊族群乳癌治療考量" id="toc-特殊族群乳癌治療考量" class="nav-link" data-scroll-target="#特殊族群乳癌治療考量">4.6 特殊族群乳癌治療考量</a>
+  <ul class="collapse">
+  <li><a href="#男性乳癌治療要點" id="toc-男性乳癌治療要點" class="nav-link" data-scroll-target="#男性乳癌治療要點">4.6.1 男性乳癌治療要點</a></li>
+  <li><a href="#懷孕期間乳癌的治療" id="toc-懷孕期間乳癌的治療" class="nav-link" data-scroll-target="#懷孕期間乳癌的治療">4.6.2 懷孕期間乳癌的治療</a></li>
+  </ul></li>
+  <li><a href="#治療過程中的副作用管理" id="toc-治療過程中的副作用管理" class="nav-link" data-scroll-target="#治療過程中的副作用管理">4.7 治療過程中的副作用管理</a>
+  <ul class="collapse">
+  <li><a href="#手術副作用管理" id="toc-手術副作用管理" class="nav-link" data-scroll-target="#手術副作用管理">4.7.1 手術副作用管理</a></li>
+  <li><a href="#放療副作用管理" id="toc-放療副作用管理" class="nav-link" data-scroll-target="#放療副作用管理">4.7.2 放療副作用管理</a></li>
+  <li><a href="#化療副作用管理" id="toc-化療副作用管理" class="nav-link" data-scroll-target="#化療副作用管理">4.7.3 化療副作用管理</a></li>
+  <li><a href="#內分泌療法副作用管理" id="toc-內分泌療法副作用管理" class="nav-link" data-scroll-target="#內分泌療法副作用管理">4.7.4 內分泌療法副作用管理</a></li>
+  </ul></li>
+  <li><a href="#如何與醫療團隊討論治療方案" id="toc-如何與醫療團隊討論治療方案" class="nav-link" data-scroll-target="#如何與醫療團隊討論治療方案">4.8 如何與醫療團隊討論治療方案？</a></li>
+  <li><a href="#本章小結-2" id="toc-本章小結-2" class="nav-link" data-scroll-target="#本章小結-2">本章小結</a></li>
+  </ul></li>
+  <li><a href="#第五部分乳癌治療期間與後續的支持性照護" id="toc-第五部分乳癌治療期間與後續的支持性照護" class="nav-link" data-scroll-target="#第五部分乳癌治療期間與後續的支持性照護">第五部分：乳癌治療期間與後續的支持性照護</a>
+  <ul class="collapse">
+  <li><a href="#乳房重建手術的選擇與考量" id="toc-乳房重建手術的選擇與考量" class="nav-link" data-scroll-target="#乳房重建手術的選擇與考量">5.1 乳房重建手術的選擇與考量</a>
+  <ul class="collapse">
+  <li><a href="#乳房重建的意義與目標" id="toc-乳房重建的意義與目標" class="nav-link" data-scroll-target="#乳房重建的意義與目標">5.1.1 乳房重建的意義與目標</a></li>
+  <li><a href="#乳房重建的時機選擇" id="toc-乳房重建的時機選擇" class="nav-link" data-scroll-target="#乳房重建的時機選擇">5.1.2 乳房重建的時機選擇</a></li>
+  <li><a href="#乳房重建的主要方式" id="toc-乳房重建的主要方式" class="nav-link" data-scroll-target="#乳房重建的主要方式">5.1.3 乳房重建的主要方式</a></li>
+  <li><a href="#如何選擇適合自己的重建方式" id="toc-如何選擇適合自己的重建方式" class="nav-link" data-scroll-target="#如何選擇適合自己的重建方式">5.1.4 如何選擇適合自己的重建方式？</a></li>
+  </ul></li>
+  <li><a href="#放射治療對乳房重建的影響與處理策略" id="toc-放射治療對乳房重建的影響與處理策略" class="nav-link" data-scroll-target="#放射治療對乳房重建的影響與處理策略">5.2 放射治療對乳房重建的影響與處理策略</a>
+  <ul class="collapse">
+  <li><a href="#放射治療與乳房重建時機的協調" id="toc-放射治療與乳房重建時機的協調" class="nav-link" data-scroll-target="#放射治療與乳房重建時機的協調">5.2.1 放射治療與乳房重建時機的協調</a></li>
+  <li><a href="#已接受放射治療後的乳房重建考量" id="toc-已接受放射治療後的乳房重建考量" class="nav-link" data-scroll-target="#已接受放射治療後的乳房重建考量">5.2.2 已接受放射治療後的乳房重建考量</a></li>
+  </ul></li>
+  <li><a href="#治療期間的副作用管理與支持性照護" id="toc-治療期間的副作用管理與支持性照護" class="nav-link" data-scroll-target="#治療期間的副作用管理與支持性照護">5.3 治療期間的副作用管理與支持性照護</a>
+  <ul class="collapse">
+  <li><a href="#術後常見副作用管理" id="toc-術後常見副作用管理" class="nav-link" data-scroll-target="#術後常見副作用管理">5.3.1 術後常見副作用管理</a></li>
+  <li><a href="#化療期間的副作用管理" id="toc-化療期間的副作用管理" class="nav-link" data-scroll-target="#化療期間的副作用管理">5.3.2 化療期間的副作用管理</a></li>
+  <li><a href="#放射治療期間的副作用管理" id="toc-放射治療期間的副作用管理" class="nav-link" data-scroll-target="#放射治療期間的副作用管理">5.3.3 放射治療期間的副作用管理</a></li>
+  <li><a href="#內分泌治療期間的副作用管理" id="toc-內分泌治療期間的副作用管理" class="nav-link" data-scroll-target="#內分泌治療期間的副作用管理">5.3.4 內分泌治療期間的副作用管理</a></li>
+  </ul></li>
+  <li><a href="#治療後的長期追蹤與健康促進" id="toc-治療後的長期追蹤與健康促進" class="nav-link" data-scroll-target="#治療後的長期追蹤與健康促進">5.4 治療後的長期追蹤與健康促進</a>
+  <ul class="collapse">
+  <li><a href="#長期追蹤與復發監測的重要性" id="toc-長期追蹤與復發監測的重要性" class="nav-link" data-scroll-target="#長期追蹤與復發監測的重要性">5.4.1 長期追蹤與復發監測的重要性</a></li>
+  <li><a href="#治療後健康生活型態的建立" id="toc-治療後健康生活型態的建立" class="nav-link" data-scroll-target="#治療後健康生活型態的建立">5.4.2 治療後健康生活型態的建立</a></li>
+  <li><a href="#心理健康與社會支持" id="toc-心理健康與社會支持" class="nav-link" data-scroll-target="#心理健康與社會支持">5.4.3 心理健康與社會支持</a></li>
+  </ul></li>
+  <li><a href="#乳癌治療後的復健與身體活動建議" id="toc-乳癌治療後的復健與身體活動建議" class="nav-link" data-scroll-target="#乳癌治療後的復健與身體活動建議">5.5 乳癌治療後的復健與身體活動建議</a>
+  <ul class="collapse">
+  <li><a href="#復健與物理治療" id="toc-復健與物理治療" class="nav-link" data-scroll-target="#復健與物理治療">5.5.1 復健與物理治療</a></li>
+  <li><a href="#推薦的身體活動與運動種類" id="toc-推薦的身體活動與運動種類" class="nav-link" data-scroll-target="#推薦的身體活動與運動種類">5.5.2 推薦的身體活動與運動種類</a></li>
+  </ul></li>
+  <li><a href="#如何與醫療團隊討論治療後續計畫" id="toc-如何與醫療團隊討論治療後續計畫" class="nav-link" data-scroll-target="#如何與醫療團隊討論治療後續計畫">5.6 如何與醫療團隊討論治療後續計畫？</a></li>
+  <li><a href="#治療對生育力與性荷爾蒙的影響" id="toc-治療對生育力與性荷爾蒙的影響" class="nav-link" data-scroll-target="#治療對生育力與性荷爾蒙的影響">5.7 治療對生育力與性荷爾蒙的影響</a>
+  <ul class="collapse">
+  <li><a href="#生育力與月經改變" id="toc-生育力與月經改變" class="nav-link" data-scroll-target="#生育力與月經改變">5.7.1 生育力與月經改變</a></li>
+  <li><a href="#性荷爾蒙改變與性健康" id="toc-性荷爾蒙改變與性健康" class="nav-link" data-scroll-target="#性荷爾蒙改變與性健康">5.7.2 性荷爾蒙改變與性健康</a></li>
+  </ul></li>
+  <li><a href="#本章小結-3" id="toc-本章小結-3" class="nav-link" data-scroll-target="#本章小結-3">本章小結</a></li>
+  </ul></li>
+  <li><a href="#第六部分乳癌的臨床試驗與創新療法" id="toc-第六部分乳癌的臨床試驗與創新療法" class="nav-link" data-scroll-target="#第六部分乳癌的臨床試驗與創新療法">第六部分：乳癌的臨床試驗與創新療法</a>
+  <ul class="collapse">
+  <li><a href="#什麼是乳癌臨床試驗" id="toc-什麼是乳癌臨床試驗" class="nav-link" data-scroll-target="#什麼是乳癌臨床試驗">6.1 什麼是乳癌臨床試驗？</a>
+  <ul class="collapse">
+  <li><a href="#臨床試驗的定義與目的" id="toc-臨床試驗的定義與目的" class="nav-link" data-scroll-target="#臨床試驗的定義與目的">6.1.1 臨床試驗的定義與目的</a></li>
+  <li><a href="#臨床試驗的不同階段" id="toc-臨床試驗的不同階段" class="nav-link" data-scroll-target="#臨床試驗的不同階段">6.1.2 臨床試驗的不同階段</a></li>
+  </ul></li>
+  <li><a href="#乳癌臨床試驗的參與考量" id="toc-乳癌臨床試驗的參與考量" class="nav-link" data-scroll-target="#乳癌臨床試驗的參與考量">6.2 乳癌臨床試驗的參與考量</a>
+  <ul class="collapse">
+  <li><a href="#參與臨床試驗的好處" id="toc-參與臨床試驗的好處" class="nav-link" data-scroll-target="#參與臨床試驗的好處">6.2.1 參與臨床試驗的好處</a></li>
+  <li><a href="#參與臨床試驗的潛在風險與考量" id="toc-參與臨床試驗的潛在風險與考量" class="nav-link" data-scroll-target="#參與臨床試驗的潛在風險與考量">6.2.2 參與臨床試驗的潛在風險與考量</a></li>
+  <li><a href="#如何評估自己是否適合參與臨床試驗" id="toc-如何評估自己是否適合參與臨床試驗" class="nav-link" data-scroll-target="#如何評估自己是否適合參與臨床試驗">6.2.3 如何評估自己是否適合參與臨床試驗？</a></li>
+  </ul></li>
+  <li><a href="#常見的乳癌臨床試驗類型" id="toc-常見的乳癌臨床試驗類型" class="nav-link" data-scroll-target="#常見的乳癌臨床試驗類型">6.3 常見的乳癌臨床試驗類型</a>
+  <ul class="collapse">
+  <li><a href="#新型藥物試驗novel-drug-trials" id="toc-新型藥物試驗novel-drug-trials" class="nav-link" data-scroll-target="#新型藥物試驗novel-drug-trials">6.3.1 新型藥物試驗（Novel Drug Trials）</a></li>
+  <li><a href="#免疫療法臨床試驗immunotherapy-trials" id="toc-免疫療法臨床試驗immunotherapy-trials" class="nav-link" data-scroll-target="#免疫療法臨床試驗immunotherapy-trials">6.3.2 免疫療法臨床試驗（Immunotherapy Trials）</a></li>
+  <li><a href="#新型檢測方法試驗diagnostic-trials" id="toc-新型檢測方法試驗diagnostic-trials" class="nav-link" data-scroll-target="#新型檢測方法試驗diagnostic-trials">6.3.3 新型檢測方法試驗（Diagnostic Trials）</a></li>
+  </ul></li>
+  <li><a href="#乳癌治療領域的創新發展" id="toc-乳癌治療領域的創新發展" class="nav-link" data-scroll-target="#乳癌治療領域的創新發展">6.4 乳癌治療領域的創新發展</a>
+  <ul class="collapse">
+  <li><a href="#標靶治療的新進展" id="toc-標靶治療的新進展" class="nav-link" data-scroll-target="#標靶治療的新進展">6.4.1 標靶治療的新進展</a></li>
+  <li><a href="#抗體藥物偶聯物adc" id="toc-抗體藥物偶聯物adc" class="nav-link" data-scroll-target="#抗體藥物偶聯物adc">6.4.2 抗體藥物偶聯物（ADC）</a></li>
+  <li><a href="#免疫療法immunotherapy-1" id="toc-免疫療法immunotherapy-1" class="nav-link" data-scroll-target="#免疫療法immunotherapy-1">6.4.3 免疫療法（Immunotherapy）</a></li>
+  <li><a href="#個人化醫療與精準醫療personalized-precision-medicine" id="toc-個人化醫療與精準醫療personalized-precision-medicine" class="nav-link" data-scroll-target="#個人化醫療與精準醫療personalized-precision-medicine">6.4.4 個人化醫療與精準醫療（Personalized &amp; Precision Medicine）</a></li>
+  </ul></li>
+  <li><a href="#如何查詢與參與乳癌臨床試驗" id="toc-如何查詢與參與乳癌臨床試驗" class="nav-link" data-scroll-target="#如何查詢與參與乳癌臨床試驗">6.5 如何查詢與參與乳癌臨床試驗？</a>
+  <ul class="collapse">
+  <li><a href="#與醫療團隊討論" id="toc-與醫療團隊討論" class="nav-link" data-scroll-target="#與醫療團隊討論">6.5.1 與醫療團隊討論</a></li>
+  <li><a href="#查詢公開資料庫與網站" id="toc-查詢公開資料庫與網站" class="nav-link" data-scroll-target="#查詢公開資料庫與網站">6.5.2 查詢公開資料庫與網站</a></li>
+  </ul></li>
+  <li><a href="#參與臨床試驗時的權利與保障" id="toc-參與臨床試驗時的權利與保障" class="nav-link" data-scroll-target="#參與臨床試驗時的權利與保障">6.6 參與臨床試驗時的權利與保障</a>
+  <ul class="collapse">
+  <li><a href="#知情同意書informed-consent的重要性" id="toc-知情同意書informed-consent的重要性" class="nav-link" data-scroll-target="#知情同意書informed-consent的重要性">6.6.1 知情同意書（Informed Consent）的重要性</a></li>
+  <li><a href="#個人資訊與資料的保密性" id="toc-個人資訊與資料的保密性" class="nav-link" data-scroll-target="#個人資訊與資料的保密性">6.6.2 個人資訊與資料的保密性</a></li>
+  </ul></li>
+  <li><a href="#與醫療團隊溝通臨床試驗的建議問題" id="toc-與醫療團隊溝通臨床試驗的建議問題" class="nav-link" data-scroll-target="#與醫療團隊溝通臨床試驗的建議問題">6.7 與醫療團隊溝通臨床試驗的建議問題</a></li>
+  </ul></li>
+  <li><a href="#第七部分乳癌治療後的長期生活規劃與健康管理" id="toc-第七部分乳癌治療後的長期生活規劃與健康管理" class="nav-link" data-scroll-target="#第七部分乳癌治療後的長期生活規劃與健康管理">第七部分：乳癌治療後的長期生活規劃與健康管理</a>
+  <ul class="collapse">
+  <li><a href="#乳癌治療後的長期追蹤與復發監測" id="toc-乳癌治療後的長期追蹤與復發監測" class="nav-link" data-scroll-target="#乳癌治療後的長期追蹤與復發監測">7.1 乳癌治療後的長期追蹤與復發監測</a>
+  <ul class="collapse">
+  <li><a href="#定期追蹤的重要性" id="toc-定期追蹤的重要性" class="nav-link" data-scroll-target="#定期追蹤的重要性">7.1.1 定期追蹤的重要性</a></li>
+  <li><a href="#追蹤檢查項目與頻率建議" id="toc-追蹤檢查項目與頻率建議" class="nav-link" data-scroll-target="#追蹤檢查項目與頻率建議">7.1.2 追蹤檢查項目與頻率建議</a></li>
+  <li><a href="#如何辨識乳癌復發跡象" id="toc-如何辨識乳癌復發跡象" class="nav-link" data-scroll-target="#如何辨識乳癌復發跡象">7.1.3 如何辨識乳癌復發跡象？</a></li>
+  </ul></li>
+  <li><a href="#治療後長期副作用的管理" id="toc-治療後長期副作用的管理" class="nav-link" data-scroll-target="#治療後長期副作用的管理">7.2 治療後長期副作用的管理</a>
+  <ul class="collapse">
+  <li><a href="#淋巴水腫的管理與預防" id="toc-淋巴水腫的管理與預防" class="nav-link" data-scroll-target="#淋巴水腫的管理與預防">7.2.1 淋巴水腫的管理與預防</a></li>
+  <li><a href="#骨質疏鬆的監測與預防" id="toc-骨質疏鬆的監測與預防" class="nav-link" data-scroll-target="#骨質疏鬆的監測與預防">7.2.2 骨質疏鬆的監測與預防</a></li>
+  <li><a href="#心血管健康管理" id="toc-心血管健康管理" class="nav-link" data-scroll-target="#心血管健康管理">7.2.3 心血管健康管理</a></li>
+  <li><a href="#認知功能障礙化療腦的管理" id="toc-認知功能障礙化療腦的管理" class="nav-link" data-scroll-target="#認知功能障礙化療腦的管理">7.2.4 認知功能障礙（化療腦）的管理</a></li>
+  </ul></li>
+  <li><a href="#健康生活型態的長期管理策略" id="toc-健康生活型態的長期管理策略" class="nav-link" data-scroll-target="#健康生活型態的長期管理策略">7.3 健康生活型態的長期管理策略</a>
+  <ul class="collapse">
+  <li><a href="#均衡營養與飲食建議" id="toc-均衡營養與飲食建議" class="nav-link" data-scroll-target="#均衡營養與飲食建議">7.3.1 均衡營養與飲食建議</a></li>
+  <li><a href="#規律運動與身體活動建議" id="toc-規律運動與身體活動建議" class="nav-link" data-scroll-target="#規律運動與身體活動建議">7.3.2 規律運動與身體活動建議</a></li>
+  <li><a href="#心理健康維護" id="toc-心理健康維護" class="nav-link" data-scroll-target="#心理健康維護">7.3.3 心理健康維護</a></li>
+  </ul></li>
+  <li><a href="#心理與情緒管理的策略與資源" id="toc-心理與情緒管理的策略與資源" class="nav-link" data-scroll-target="#心理與情緒管理的策略與資源">7.4 心理與情緒管理的策略與資源</a>
+  <ul class="collapse">
+  <li><a href="#常見心理反應與管理策略" id="toc-常見心理反應與管理策略" class="nav-link" data-scroll-target="#常見心理反應與管理策略">7.4.1 常見心理反應與管理策略</a></li>
+  <li><a href="#社會支持與病友團體" id="toc-社會支持與病友團體" class="nav-link" data-scroll-target="#社會支持與病友團體">7.4.2 社會支持與病友團體</a></li>
+  </ul></li>
+  <li><a href="#家庭與社會生活的重建與調整" id="toc-家庭與社會生活的重建與調整" class="nav-link" data-scroll-target="#家庭與社會生活的重建與調整">7.5 家庭與社會生活的重建與調整</a>
+  <ul class="collapse">
+  <li><a href="#家庭關係與溝通技巧" id="toc-家庭關係與溝通技巧" class="nav-link" data-scroll-target="#家庭關係與溝通技巧">7.5.1 家庭關係與溝通技巧</a></li>
+  <li><a href="#親密關係與性健康的管理" id="toc-親密關係與性健康的管理" class="nav-link" data-scroll-target="#親密關係與性健康的管理">7.5.2 親密關係與性健康的管理</a></li>
+  <li><a href="#重返職場與社會活動" id="toc-重返職場與社會活動" class="nav-link" data-scroll-target="#重返職場與社會活動">7.5.3 重返職場與社會活動</a></li>
+  </ul></li>
+  <li><a href="#治療後長期規劃與未來目標設定" id="toc-治療後長期規劃與未來目標設定" class="nav-link" data-scroll-target="#治療後長期規劃與未來目標設定">7.6 治療後長期規劃與未來目標設定</a>
+  <ul class="collapse">
+  <li><a href="#制訂健康管理與追蹤計畫" id="toc-制訂健康管理與追蹤計畫" class="nav-link" data-scroll-target="#制訂健康管理與追蹤計畫">7.6.1 制訂健康管理與追蹤計畫</a></li>
+  <li><a href="#訂定個人生命目標與追求意義感" id="toc-訂定個人生命目標與追求意義感" class="nav-link" data-scroll-target="#訂定個人生命目標與追求意義感">7.6.2 訂定個人生命目標與追求意義感</a></li>
+  </ul></li>
+  <li><a href="#如何與醫療團隊討論治療後長期生活規劃" id="toc-如何與醫療團隊討論治療後長期生活規劃" class="nav-link" data-scroll-target="#如何與醫療團隊討論治療後長期生活規劃">7.7 如何與醫療團隊討論治療後長期生活規劃？</a></li>
+  <li><a href="#本章小結-4" id="toc-本章小結-4" class="nav-link" data-scroll-target="#本章小結-4">本章小結</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">乳癌</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="第一部分認識乳癌" class="level1">
+<h1>第一部分：認識乳癌</h1>
+<section id="乳房的基本結構與功能" class="level2">
+<h2 class="anchored" data-anchor-id="乳房的基本結構與功能">1.1 乳房的基本結構與功能</h2>
+<section id="乳房的解剖構造" class="level3">
+<h3 class="anchored" data-anchor-id="乳房的解剖構造">1.1.1 乳房的解剖構造</h3>
+<p>乳房是位於胸前區域的特殊器官，主要組成包括：</p>
+<ul>
+<li><strong>乳腺小葉（Lobules）</strong>：負責乳汁生成，類似葡萄串狀。</li>
+<li><strong>乳腺管（Ducts）</strong>：乳汁運輸通道，連接小葉與乳頭。</li>
+<li><strong>乳頭（Nipple）與乳暈（Areola）</strong>：乳頭位於乳房中央，乳暈則環繞乳頭，含有神經與肌肉，負責乳汁排出。</li>
+<li><strong>脂肪組織（Fatty Tissue）</strong>：支撐與填充乳房，影響乳房大小與形狀。</li>
+<li><strong>結締組織（Connective Tissue）</strong>：提供結構與支撐。</li>
+<li><strong>淋巴系統（Lymphatic System）</strong>：
+<ul>
+<li>淋巴管：負責回收乳房的液體與廢物。</li>
+<li>淋巴結：免疫反應與淋巴液過濾功能，常見於腋下與胸骨旁區域。</li>
+</ul></li>
+<li><strong>胸肌與肋骨（Chest Muscles and Ribs）</strong>：支撐乳房結構後方的重要組織。</li>
+</ul>
+</section>
+<section id="乳房的生理功能" class="level3">
+<h3 class="anchored" data-anchor-id="乳房的生理功能">1.1.2 乳房的生理功能</h3>
+<ul>
+<li>哺乳：製造與提供新生兒營養（乳汁）。</li>
+<li>次級性徵：女性青春期發育象徵之一，受賀爾蒙調控。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="什麼是乳癌" class="level2">
+<h2 class="anchored" data-anchor-id="什麼是乳癌">1.2 什麼是乳癌？</h2>
+<section id="乳癌的定義與機制" class="level3">
+<h3 class="anchored" data-anchor-id="乳癌的定義與機制">1.2.1 乳癌的定義與機制</h3>
+<p>乳癌（Breast Cancer）為乳房細胞內的不正常增生，形成惡性腫瘤，具侵襲性與轉移潛能。</p>
+</section>
+<section id="乳癌發生的常見位置" class="level3">
+<h3 class="anchored" data-anchor-id="乳癌發生的常見位置">1.2.2 乳癌發生的常見位置</h3>
+<ul>
+<li><strong>乳腺管（Ductal Carcinoma）</strong>：最常見（70-80%）。</li>
+<li><strong>乳腺小葉（Lobular Carcinoma）</strong>：次常見（約10%）。</li>
+<li>其他較罕見形式：如發炎性乳癌（IBC）等。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="良性與惡性乳房病變的區別" class="level2">
+<h2 class="anchored" data-anchor-id="良性與惡性乳房病變的區別">1.3 良性與惡性乳房病變的區別</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>良性乳房病變</th>
+<th>惡性乳房病變</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>生長速度</td>
+<td>緩慢</td>
+<td>快速</td>
+</tr>
+<tr class="even">
+<td>對周圍組織影響</td>
+<td>不侵犯周圍組織</td>
+<td>侵犯周圍組織</td>
+</tr>
+<tr class="odd">
+<td>遠端轉移風險</td>
+<td>極少</td>
+<td>可能遠端轉移</td>
+</tr>
+<tr class="even">
+<td>常見病變舉例</td>
+<td>纖維囊腫變化、纖維腺瘤</td>
+<td>乳腺管癌、小葉癌等</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="乳癌的侵襲與轉移特性" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌的侵襲與轉移特性">1.4 乳癌的侵襲與轉移特性</h2>
+<section id="癌症侵襲與轉移定義" class="level3">
+<h3 class="anchored" data-anchor-id="癌症侵襲與轉移定義">1.4.1 癌症侵襲與轉移定義</h3>
+<ul>
+<li><strong>侵襲（Invasion）</strong>：癌細胞突破原發位置，進入乳房組織。</li>
+<li><strong>轉移（Metastasis）</strong>：癌細胞透過淋巴系統或血液循環至遠端器官。</li>
+</ul>
+</section>
+<section id="常見轉移位置" class="level3">
+<h3 class="anchored" data-anchor-id="常見轉移位置">1.4.2 常見轉移位置</h3>
+<ul>
+<li>淋巴結（尤其腋下淋巴結）</li>
+<li>骨骼</li>
+<li>肺臟</li>
+<li>肝臟</li>
+<li>腦部</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="常見乳癌種類及其特性" class="level2">
+<h2 class="anchored" data-anchor-id="常見乳癌種類及其特性">1.5 常見乳癌種類及其特性</h2>
+<section id="非侵襲性乳癌原位癌" class="level3">
+<h3 class="anchored" data-anchor-id="非侵襲性乳癌原位癌">1.5.1 非侵襲性乳癌（原位癌）</h3>
+<ul>
+<li><strong>乳腺管原位癌（DCIS）</strong>
+<ul>
+<li>癌細胞局限於乳腺管內，未侵犯周圍組織。</li>
+<li>通常預後良好，治療後治癒率極高。</li>
+</ul></li>
+</ul>
+</section>
+<section id="侵襲性乳癌" class="level3">
+<h3 class="anchored" data-anchor-id="侵襲性乳癌">1.5.2 侵襲性乳癌</h3>
+<ul>
+<li><strong>侵襲性乳腺管癌（IDC）</strong>
+<ul>
+<li>最常見，占乳癌約70-80%。</li>
+<li>具侵襲性，易轉移至其他器官。</li>
+</ul></li>
+<li><strong>侵襲性乳腺小葉癌（ILC）</strong>
+<ul>
+<li>第二常見，占約10%。</li>
+<li>常呈現多病灶、多側病灶形式。</li>
+</ul></li>
+<li><strong>發炎性乳癌（IBC）</strong>
+<ul>
+<li>極少見但極具侵襲性，占1-5%。</li>
+<li>乳房皮膚紅腫、發熱，可能伴疼痛。</li>
+</ul></li>
+<li><strong>三陰性乳癌（TNBC）</strong>
+<ul>
+<li>ER、PR及HER2皆為陰性，較難治療，預後較差。</li>
+</ul></li>
+<li><strong>HER2陽性乳癌</strong>
+<ul>
+<li>表現HER2蛋白過量，可使用特殊標靶藥物治療。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="乳癌流行病學與統計現況" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌流行病學與統計現況">1.6 乳癌流行病學與統計現況</h2>
+<ul>
+<li>乳癌為全球女性最常見癌症之一。</li>
+<li>在台灣女性癌症發生率中排名第一，每年持續上升。</li>
+<li>早期診斷與治療下，5年存活率可達85%以上。</li>
+</ul>
+<hr>
+</section>
+<section id="乳癌防治重要性與預防措施" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌防治重要性與預防措施">1.7 乳癌防治重要性與預防措施</h2>
+<section id="為什麼乳癌防治很重要" class="level3">
+<h3 class="anchored" data-anchor-id="為什麼乳癌防治很重要">1.7.1 為什麼乳癌防治很重要？</h3>
+<ul>
+<li>早期發現、早期治療提高治癒率。</li>
+<li>減少癌症治療副作用，提升病患生活品質。</li>
+</ul>
+</section>
+<section id="如何降低乳癌發生的風險" class="level3">
+<h3 class="anchored" data-anchor-id="如何降低乳癌發生的風險">1.7.2 如何降低乳癌發生的風險？</h3>
+<ul>
+<li>定期乳房自我檢查（每月一次）。</li>
+<li>定期乳房篩檢（乳房攝影）。</li>
+<li>維持健康生活型態：
+<ul>
+<li>規律運動</li>
+<li>健康飲食</li>
+<li>減少飲酒、避免抽菸</li>
+</ul></li>
+<li>了解個人家族病史與遺傳基因檢測。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="本材料的目的與使用方式" class="level2">
+<h2 class="anchored" data-anchor-id="本材料的目的與使用方式">1.8 本材料的目的與使用方式</h2>
+<p>旨在協助乳癌患者及其家屬：</p>
+<ul>
+<li>更全面理解乳癌相關知識。</li>
+<li>提供最新且基於實證的治療指引資訊。</li>
+<li>幫助病患與醫療團隊進行更有效的溝通與共同決策。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="第二部分乳癌的風險因素與基因檢測" class="level1">
+<h1>第二部分：乳癌的風險因素與基因檢測</h1>
+<hr>
+<section id="乳癌的風險因素概述" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌的風險因素概述">2.1 乳癌的風險因素概述</h2>
+<p>乳癌的發生受到多種因素的影響，其中包含無法改變的因素（非調控因素）及可透過生活調整降低的因素（可調控因素）。</p>
+<hr>
+<section id="非調控因素不可改變的風險因素" class="level3">
+<h3 class="anchored" data-anchor-id="非調控因素不可改變的風險因素">2.1.1 非調控因素（不可改變的風險因素）</h3>
+<p>以下因素是個人無法控制或改變的，屬於內在或天生因素：</p>
+<ul>
+<li><strong>性別</strong>
+<ul>
+<li>女性乳癌風險遠高於男性（約100倍）。</li>
+</ul></li>
+<li><strong>年齡</strong>
+<ul>
+<li>隨年齡增加乳癌風險上升，大部分患者為40歲以上。</li>
+</ul></li>
+<li><strong>家族病史</strong>
+<ul>
+<li>一級親屬（母親、姐妹、女兒）患乳癌，風險明顯增加。</li>
+<li>多位近親罹患乳癌或卵巢癌，風險更高。</li>
+</ul></li>
+<li><strong>個人病史</strong>
+<ul>
+<li>曾罹患一側乳癌，另一側乳房風險增加。</li>
+</ul></li>
+<li><strong>乳房病變史</strong>
+<ul>
+<li>曾有非典型增生病變（如非典型導管增生ADH），未來乳癌風險提升。</li>
+</ul></li>
+<li><strong>月經史與生殖史</strong>
+<ul>
+<li>初經年齡早（12歲以前）或停經年齡晚（55歲後）風險提高。</li>
+<li>未曾生育或晚生育（首次懷孕超過30歲）風險較高。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="可調控因素可改變的風險因素" class="level3">
+<h3 class="anchored" data-anchor-id="可調控因素可改變的風險因素">2.1.2 可調控因素（可改變的風險因素）</h3>
+<p>以下為個人可透過生活方式的改變以降低乳癌風險的因素：</p>
+<ul>
+<li><strong>體重與肥胖</strong>
+<ul>
+<li>停經後肥胖明顯增加乳癌風險。</li>
+</ul></li>
+<li><strong>飲酒</strong>
+<ul>
+<li>長期大量飲酒增加乳癌風險（每天超過一杯酒）。</li>
+</ul></li>
+<li><strong>缺乏運動</strong>
+<ul>
+<li>規律運動能有效降低乳癌風險。</li>
+</ul></li>
+<li><strong>荷爾蒙補充療法（HRT）</strong>
+<ul>
+<li>長期服用雌激素及黃體素複合型HRT提高乳癌風險。</li>
+</ul></li>
+<li><strong>飲食因素</strong>
+<ul>
+<li>高脂、高糖、低纖維飲食可能增加乳癌風險。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="遺傳性乳癌與基因檢測" class="level2">
+<h2 class="anchored" data-anchor-id="遺傳性乳癌與基因檢測">2.2 遺傳性乳癌與基因檢測</h2>
+<hr>
+<section id="什麼是遺傳性乳癌" class="level3">
+<h3 class="anchored" data-anchor-id="什麼是遺傳性乳癌">2.2.1 什麼是遺傳性乳癌？</h3>
+<ul>
+<li>約5-10%的乳癌屬於遺傳性乳癌，意指與家族中基因突變相關。</li>
+<li>常見的乳癌基因突變包括：BRCA1、BRCA2等。</li>
+</ul>
+<hr>
+</section>
+<section id="brca基因簡介" class="level3">
+<h3 class="anchored" data-anchor-id="brca基因簡介">2.2.2 BRCA基因簡介</h3>
+<ul>
+<li><strong>BRCA1、BRCA2基因</strong>負責細胞修復DNA受損。</li>
+<li>突變會降低細胞修復能力，明顯提高乳癌及卵巢癌風險。</li>
+</ul>
+<section id="基因突變與癌症風險" class="level4">
+<h4 class="anchored" data-anchor-id="基因突變與癌症風險">基因突變與癌症風險</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>基因突變</th>
+<th>乳癌風險（終生）</th>
+<th>卵巢癌風險（終生）</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BRCA1 突變</td>
+<td>最高約70%</td>
+<td>約40%</td>
+</tr>
+<tr class="even">
+<td>BRCA2 突變</td>
+<td>約50%</td>
+<td>約10-20%</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="誰適合接受基因諮詢與檢測" class="level3">
+<h3 class="anchored" data-anchor-id="誰適合接受基因諮詢與檢測">2.2.3 誰適合接受基因諮詢與檢測？</h3>
+<p>符合以下任一條件者應考慮基因諮詢與檢測：</p>
+<ul>
+<li>家族中有多人罹患乳癌、卵巢癌或男性乳癌。</li>
+<li>年齡低於45歲即罹患乳癌。</li>
+<li>罹患三陰性乳癌（TNBC）。</li>
+<li>有其他癌症家族病史，如胰臟癌、前列腺癌或黑色素瘤。</li>
+<li>已知家族內存在遺傳性乳癌基因突變。</li>
+</ul>
+<hr>
+</section>
+<section id="基因檢測的方式與流程" class="level3">
+<h3 class="anchored" data-anchor-id="基因檢測的方式與流程">2.2.4 基因檢測的方式與流程</h3>
+<ol type="1">
+<li><strong>基因諮詢</strong>
+<ul>
+<li>與遺傳諮詢師討論家族病史、檢測需求及檢測的意義。</li>
+</ul></li>
+<li><strong>採樣與分析</strong>
+<ul>
+<li>抽取血液或唾液，檢測DNA是否存在BRCA或其他相關基因突變。</li>
+</ul></li>
+<li><strong>結果解讀與諮詢</strong>
+<ul>
+<li>遺傳諮詢師解釋檢測結果與未來風險。</li>
+<li>依結果規劃風險管理及後續治療。</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="基因檢測後的可能選擇" class="level3">
+<h3 class="anchored" data-anchor-id="基因檢測後的可能選擇">2.2.5 基因檢測後的可能選擇</h3>
+<p>基因檢測若呈現陽性結果，有以下幾種風險管理方式：</p>
+<ul>
+<li><strong>密切監測</strong>
+<ul>
+<li>提早與密集乳癌篩檢（如MRI、乳房攝影等）。</li>
+</ul></li>
+<li><strong>預防性手術</strong>
+<ul>
+<li>預防性乳房切除或卵巢輸卵管切除術。</li>
+</ul></li>
+<li><strong>化學預防</strong>
+<ul>
+<li>使用抗雌激素藥物降低風險（如Tamoxifen, Raloxifene）。</li>
+</ul></li>
+<li><strong>生活方式調整</strong>
+<ul>
+<li>改善飲食、規律運動、避免飲酒。</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何與醫療團隊討論乳癌風險與基因檢測" class="level2">
+<h2 class="anchored" data-anchor-id="如何與醫療團隊討論乳癌風險與基因檢測">2.3 如何與醫療團隊討論乳癌風險與基因檢測？</h2>
+<p>當您有擔憂或疑慮時，請主動與您的醫療團隊溝通：</p>
+<ul>
+<li>提供詳細的個人與家族病史。</li>
+<li>表達基因檢測的意願與考量。</li>
+<li>討論可能結果對治療策略及家庭成員的影響。</li>
+</ul>
+<hr>
+</section>
+<section id="本章小結" class="level2">
+<h2 class="anchored" data-anchor-id="本章小結">本章小結</h2>
+<p><strong>本章重點回顧</strong>：</p>
+<ul>
+<li>乳癌的風險因子分為非調控與可調控兩類。</li>
+<li>遺傳性乳癌占少數，但對預防及治療意義重大。</li>
+<li>基因檢測可協助瞭解個人乳癌風險並制訂管理策略。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="第三部分乳癌的診斷與評估" class="level1">
+<h1>第三部分：乳癌的診斷與評估</h1>
+<hr>
+<section id="乳癌診斷的重要性與流程概述" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌診斷的重要性與流程概述">3.1 乳癌診斷的重要性與流程概述</h2>
+<p>乳癌若能早期發現並準確診斷，治療成功機率可大幅提升。診斷過程包含臨床檢查、影像診斷與病理切片分析。</p>
+<p>乳癌診斷流程：</p>
+<ol type="1">
+<li>臨床觸診與病史詢問<br>
+</li>
+<li>乳房影像檢查（乳房攝影、超音波、MRI）<br>
+</li>
+<li>活體組織切片（病理診斷）<br>
+</li>
+<li>病理報告解讀<br>
+</li>
+<li>疾病分期與評估</li>
+</ol>
+<hr>
+</section>
+<section id="臨床檢查與病史詢問" class="level2">
+<h2 class="anchored" data-anchor-id="臨床檢查與病史詢問">3.2 臨床檢查與病史詢問</h2>
+<section id="臨床觸診檢查" class="level3">
+<h3 class="anchored" data-anchor-id="臨床觸診檢查">3.2.1 臨床觸診檢查</h3>
+<p>醫師透過觸診檢查確認乳房、腋下或鎖骨周圍是否有腫塊或異常狀況。</p>
+</section>
+<section id="個人與家族病史評估" class="level3">
+<h3 class="anchored" data-anchor-id="個人與家族病史評估">3.2.2 個人與家族病史評估</h3>
+<p>醫師會詢問：</p>
+<ul>
+<li>個人乳房症狀（疼痛、腫塊、分泌物等）</li>
+<li>個人與家族癌症病史（乳癌、卵巢癌等）</li>
+<li>月經、生育及停經狀態</li>
+<li>過去荷爾蒙使用經驗（如避孕藥、荷爾蒙療法等）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="乳房影像診斷工具" class="level2">
+<h2 class="anchored" data-anchor-id="乳房影像診斷工具">3.3 乳房影像診斷工具</h2>
+<hr>
+<section id="乳房攝影檢查mammography" class="level3">
+<h3 class="anchored" data-anchor-id="乳房攝影檢查mammography">3.3.1 乳房攝影檢查（Mammography）</h3>
+<ul>
+<li>標準化乳癌篩檢與初步診斷工具</li>
+<li>可早期發現乳房鈣化點與小型腫塊</li>
+<li>一般建議40歲以上婦女每1-2年接受一次篩檢</li>
+</ul>
+</section>
+<section id="乳房超音波檢查ultrasound" class="level3">
+<h3 class="anchored" data-anchor-id="乳房超音波檢查ultrasound">3.3.2 乳房超音波檢查（Ultrasound）</h3>
+<ul>
+<li>協助判別乳房腫塊性質（實質或囊腫）</li>
+<li>適合年輕女性、乳腺密度高或懷孕婦女使用</li>
+</ul>
+</section>
+<section id="乳房磁振造影mri" class="level3">
+<h3 class="anchored" data-anchor-id="乳房磁振造影mri">3.3.3 乳房磁振造影（MRI）</h3>
+<ul>
+<li>高風險病患的輔助檢查工具</li>
+<li>可清楚評估乳房腫瘤大小、範圍及多發性病灶</li>
+<li>BRCA基因突變或乳腺密度高者特別建議使用</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="活體組織切片檢查biopsy" class="level2">
+<h2 class="anchored" data-anchor-id="活體組織切片檢查biopsy">3.4 活體組織切片檢查（Biopsy）</h2>
+<hr>
+<section id="組織切片的必要性與意義" class="level3">
+<h3 class="anchored" data-anchor-id="組織切片的必要性與意義">3.4.1 組織切片的必要性與意義</h3>
+<ul>
+<li>乳癌診斷最重要且最確定的方法</li>
+<li>確認腫瘤是否為惡性及癌症亞型分類</li>
+</ul>
+</section>
+<section id="常見的切片檢查類型" class="level3">
+<h3 class="anchored" data-anchor-id="常見的切片檢查類型">3.4.2 常見的切片檢查類型</h3>
+<ul>
+<li><strong>細針穿刺切片（Fine Needle Aspiration, FNA）</strong>
+<ul>
+<li>快速、侵襲性較低，但較難獲得充足組織</li>
+</ul></li>
+<li><strong>核心針切片（Core Needle Biopsy, CNB）</strong>
+<ul>
+<li>更準確，常規使用的標準診斷方法</li>
+</ul></li>
+<li><strong>手術切片（Surgical Biopsy）</strong>
+<ul>
+<li>局部麻醉或全麻下切除腫瘤或部分組織，適用於前述方式無法確診時</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="病理報告與生物標記檢測" class="level2">
+<h2 class="anchored" data-anchor-id="病理報告與生物標記檢測">3.5 病理報告與生物標記檢測</h2>
+<hr>
+<section id="病理報告的重要性與解讀方式" class="level3">
+<h3 class="anchored" data-anchor-id="病理報告的重要性與解讀方式">3.5.1 病理報告的重要性與解讀方式</h3>
+<p>病理報告提供治療決策最重要的資訊，包括：</p>
+<ul>
+<li>腫瘤類型（Ductal/Lobular）</li>
+<li>癌症的侵襲性或分化程度（Grade）</li>
+<li>是否侵犯淋巴管或血管（淋巴管侵犯）</li>
+</ul>
+</section>
+<section id="生物標記檢測biomarker-testing" class="level3">
+<h3 class="anchored" data-anchor-id="生物標記檢測biomarker-testing">3.5.2 生物標記檢測（Biomarker Testing）</h3>
+<p>病理報告包含以下重要生物標記結果：</p>
+<ul>
+<li><strong>雌激素受體（ER, Estrogen Receptor）</strong></li>
+<li><strong>黃體素受體（PR, Progesterone Receptor）</strong></li>
+<li><strong>人類表皮生長因子受體2型（HER2）</strong></li>
+<li><strong>細胞增殖指數（Ki-67）</strong></li>
+</ul>
+<p>這些資訊決定後續治療方針，如內分泌療法、化療、標靶治療。</p>
+<hr>
+</section>
+</section>
+<section id="her2檢測的詳細介紹" class="level2">
+<h2 class="anchored" data-anchor-id="her2檢測的詳細介紹">3.6 HER2檢測的詳細介紹</h2>
+<p>HER2蛋白表現情形與後續治療策略密切相關：</p>
+<section id="her2檢測方法" class="level3">
+<h3 class="anchored" data-anchor-id="her2檢測方法">3.6.1 HER2檢測方法</h3>
+<ul>
+<li><strong>免疫組織化學染色（IHC）</strong>：
+<ul>
+<li>分為0、1+（陰性）、2+（不確定）、3+（陽性）</li>
+</ul></li>
+<li><strong>螢光原位雜合檢測（FISH）或染色原位雜合檢測（ISH）</strong>：
+<ul>
+<li>當IHC為2+（不確定）時進行此項確認檢測</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="乳癌的分期系統staging" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌的分期系統staging">3.7 乳癌的分期系統（Staging）</h2>
+<hr>
+<section id="tnm分期系統說明" class="level3">
+<h3 class="anchored" data-anchor-id="tnm分期系統說明">3.7.1 TNM分期系統說明</h3>
+<ul>
+<li><strong>T（Tumor, 腫瘤大小）</strong>
+<ul>
+<li>Tis, T1-T4表示腫瘤尺寸與侵襲程度</li>
+</ul></li>
+<li><strong>N（Nodes, 淋巴結轉移）</strong>
+<ul>
+<li>N0-N3表示淋巴結轉移的程度與位置</li>
+</ul></li>
+<li><strong>M（Metastasis, 遠端轉移）</strong>
+<ul>
+<li>M0表示無遠端轉移，M1表示有遠端轉移</li>
+</ul></li>
+</ul>
+</section>
+<section id="臨床分期-vs.-病理分期" class="level3">
+<h3 class="anchored" data-anchor-id="臨床分期-vs.-病理分期">3.7.2 臨床分期 vs.&nbsp;病理分期</h3>
+<ul>
+<li><strong>臨床分期（Clinical staging）</strong>
+<ul>
+<li>根據影像學、臨床檢查所定的初步評估</li>
+</ul></li>
+<li><strong>病理分期（Pathologic staging）</strong>
+<ul>
+<li>手術後病理切片結果所定，更準確反映真實病情</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何與醫療團隊討論診斷結果" class="level2">
+<h2 class="anchored" data-anchor-id="如何與醫療團隊討論診斷結果">3.8 如何與醫療團隊討論診斷結果？</h2>
+<p>當您獲得乳癌診斷時，建議與醫療團隊清楚確認以下資訊：</p>
+<ul>
+<li>確切的癌症類型及分期</li>
+<li>生物標記狀態（ER/PR/HER2）</li>
+<li>治療的可行性與療效評估</li>
+<li>可能的治療方式與治療前的準備</li>
+</ul>
+<hr>
+</section>
+<section id="本章小結-1" class="level2">
+<h2 class="anchored" data-anchor-id="本章小結-1">本章小結</h2>
+<p><strong>本章重點回顧</strong>：</p>
+<ul>
+<li>詳細介紹乳癌診斷的流程、影像檢查工具及病理切片的解讀方法。</li>
+<li>生物標記與HER2檢測的重要性及分期系統的介紹。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="第四部分乳癌的治療策略與選擇" class="level1">
+<h1>第四部分：乳癌的治療策略與選擇</h1>
+<hr>
+<section id="治療決策與共決策原則" class="level2">
+<h2 class="anchored" data-anchor-id="治療決策與共決策原則">4.0 治療決策與共決策原則</h2>
+<section id="治療目標的類型" class="level3">
+<h3 class="anchored" data-anchor-id="治療目標的類型">4.0.1 治療目標的類型</h3>
+<ul>
+<li><strong>根治（Curative）：</strong> 適用於早期乳癌，目標為消滅所有癌細胞。</li>
+<li><strong>控制（Control）：</strong> 中晚期乳癌中延緩病程，避免復發與惡化。</li>
+<li><strong>舒緩（Palliative）：</strong> 轉移性乳癌中，維持生活品質與緩解症狀為優先。</li>
+</ul>
+</section>
+<section id="治療選擇比較建議" class="level3">
+<h3 class="anchored" data-anchor-id="治療選擇比較建議">4.0.2 治療選擇比較建議</h3>
+<p>建議與醫療團隊討論以下比較項目：</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>項目</th>
+<th>治療選擇A</th>
+<th>治療選擇B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>預期效果</td>
+<td>腫瘤縮小 90%</td>
+<td>腫瘤穩定 70%</td>
+</tr>
+<tr class="even">
+<td>副作用</td>
+<td>噁心、掉髮</td>
+<td>疲倦、關節僵硬</td>
+</tr>
+<tr class="odd">
+<td>住院頻率</td>
+<td>每次住院2天</td>
+<td>門診給藥</td>
+</tr>
+<tr class="even">
+<td>生活干擾</td>
+<td>較大</td>
+<td>較少</td>
+</tr>
+</tbody>
+</table>
+<p>請選擇最符合您生活情境與偏好的治療策略。</p>
+<hr>
+</section>
+</section>
+<section id="乳癌治療的整體原則與目標" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌治療的整體原則與目標">4.1 乳癌治療的整體原則與目標</h2>
+<p>乳癌的治療依癌症種類、分期及病患個人因素不同，通常採用多種治療方式聯合，以達到：</p>
+<ul>
+<li>移除或縮小腫瘤</li>
+<li>防止癌症復發或轉移</li>
+<li>延長生存時間並改善生活品質</li>
+</ul>
+<hr>
+</section>
+<section id="非侵襲性乳癌原位癌dcis的治療策略" class="level2">
+<h2 class="anchored" data-anchor-id="非侵襲性乳癌原位癌dcis的治療策略">4.2 非侵襲性乳癌（原位癌，DCIS）的治療策略</h2>
+<hr>
+<section id="手術治療選擇" class="level3">
+<h3 class="anchored" data-anchor-id="手術治療選擇">4.2.1 手術治療選擇</h3>
+<ul>
+<li><strong>乳房保留手術（Lumpectomy/BCS）</strong>
+<ul>
+<li>僅切除腫瘤與周圍少量健康組織</li>
+<li>適合小型且單一病灶患者</li>
+</ul></li>
+<li><strong>乳房全切除術（Mastectomy）</strong>
+<ul>
+<li>移除整個乳房組織</li>
+<li>適用於病灶廣泛、多發病灶患者</li>
+</ul></li>
+</ul>
+</section>
+<section id="放射線治療radiotherapy" class="level3">
+<h3 class="anchored" data-anchor-id="放射線治療radiotherapy">4.2.2 放射線治療（Radiotherapy）</h3>
+<ul>
+<li>乳房保留手術後的標準輔助治療</li>
+<li>明顯降低癌症局部復發率</li>
+</ul>
+</section>
+<section id="內分泌治療hormone-therapy" class="level3">
+<h3 class="anchored" data-anchor-id="內分泌治療hormone-therapy">4.2.3 內分泌治療（Hormone Therapy）</h3>
+<ul>
+<li>ER/PR陽性的DCIS患者，可使用Tamoxifen降低復發風險</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="侵襲性乳癌的治療策略" class="level2">
+<h2 class="anchored" data-anchor-id="侵襲性乳癌的治療策略">4.3 侵襲性乳癌的治療策略</h2>
+<hr>
+<section id="手術治療" class="level3">
+<h3 class="anchored" data-anchor-id="手術治療">4.3.1 手術治療</h3>
+<ul>
+<li><strong>乳房保留手術 vs.&nbsp;全乳房切除術</strong>
+<ul>
+<li>根據腫瘤大小、位置、病患意願決定</li>
+</ul></li>
+<li><strong>腋下淋巴結評估</strong>
+<ul>
+<li>哨兵淋巴結切片（SLNB）</li>
+<li>腋下淋巴結清除術（ALND），適用於淋巴結轉移明顯者</li>
+</ul></li>
+</ul>
+</section>
+<section id="放射線治療" class="level3">
+<h3 class="anchored" data-anchor-id="放射線治療">4.3.2 放射線治療</h3>
+<ul>
+<li>術後輔助放療降低局部復發風險</li>
+<li>全乳房或胸壁放療；根據淋巴結轉移情形考慮局部區域放療（淋巴結區）</li>
+</ul>
+</section>
+<section id="系統性全身治療systemic-therapy" class="level3">
+<h3 class="anchored" data-anchor-id="系統性全身治療systemic-therapy">4.3.3 系統性全身治療（Systemic Therapy）</h3>
+<section id="化學治療chemotherapy" class="level4">
+<h4 class="anchored" data-anchor-id="化學治療chemotherapy">化學治療（Chemotherapy）</h4>
+<ul>
+<li>適用於高復發風險患者，如淋巴結轉移、三陰性乳癌、高腫瘤分級</li>
+</ul>
+</section>
+<section id="標靶治療targeted-therapy" class="level4">
+<h4 class="anchored" data-anchor-id="標靶治療targeted-therapy">標靶治療（Targeted Therapy）</h4>
+<ul>
+<li>HER2陽性患者適用（如Herceptin, Perjeta, Kadcyla等）</li>
+</ul>
+</section>
+<section id="內分泌治療hormonal-therapy" class="level4">
+<h4 class="anchored" data-anchor-id="內分泌治療hormonal-therapy">內分泌治療（Hormonal Therapy）</h4>
+<ul>
+<li>適用於ER/PR陽性患者，常用藥物包括：
+<ul>
+<li><strong>Tamoxifen：</strong> 建議至少5年，可視風險延長至10年。</li>
+<li><strong>芳香酶抑制劑（AI）：</strong> 建議5年，可於Tamoxifen後接續，或延長至總療程7-10年。</li>
+</ul></li>
+</ul>
+</section>
+<section id="免疫療法immunotherapy" class="level4">
+<h4 class="anchored" data-anchor-id="免疫療法immunotherapy">免疫療法（Immunotherapy）</h4>
+<ul>
+<li>適用於某些晚期三陰性乳癌，使用PD-L1抑制劑（如Keytruda）</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="發炎性乳癌ibc的特殊治療考量" class="level2">
+<h2 class="anchored" data-anchor-id="發炎性乳癌ibc的特殊治療考量">4.4 發炎性乳癌（IBC）的特殊治療考量</h2>
+<hr>
+<section id="術前系統性治療新輔助治療neoadjuvant" class="level3">
+<h3 class="anchored" data-anchor-id="術前系統性治療新輔助治療neoadjuvant">4.4.1 術前系統性治療（新輔助治療，Neoadjuvant）</h3>
+<ul>
+<li>化療與標靶治療降低腫瘤體積，改善手術效果</li>
+</ul>
+</section>
+<section id="手術治療策略" class="level3">
+<h3 class="anchored" data-anchor-id="手術治療策略">4.4.2 手術治療策略</h3>
+<ul>
+<li>通常建議進行全乳房切除術與腋下淋巴結清除術</li>
+</ul>
+</section>
+<section id="術後放射治療" class="level3">
+<h3 class="anchored" data-anchor-id="術後放射治療">4.4.3 術後放射治療</h3>
+<ul>
+<li>術後放射治療為標準治療，防止局部復發</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="轉移性乳癌stage-iv的治療與支持性照護" class="level2">
+<h2 class="anchored" data-anchor-id="轉移性乳癌stage-iv的治療與支持性照護">4.5 轉移性乳癌（Stage IV）的治療與支持性照護</h2>
+<hr>
+<section id="系統性治療選項" class="level3">
+<h3 class="anchored" data-anchor-id="系統性治療選項">4.5.1 系統性治療選項</h3>
+<ul>
+<li>內分泌治療：適用於ER/PR陽性</li>
+<li>標靶治療：適用於HER2陽性</li>
+<li>化學治療：快速控制症狀與疾病進展</li>
+<li>免疫療法：適用於三陰性乳癌（PD-L1陽性）</li>
+</ul>
+</section>
+<section id="骨轉移的治療策略" class="level3">
+<h3 class="anchored" data-anchor-id="骨轉移的治療策略">4.5.2 骨轉移的治療策略</h3>
+<ul>
+<li>骨修飾劑（如Denosumab, Zoledronic acid）緩解症狀、防止骨折</li>
+</ul>
+</section>
+<section id="支持性照護與緩和治療" class="level3">
+<h3 class="anchored" data-anchor-id="支持性照護與緩和治療">4.5.3 支持性照護與緩和治療</h3>
+<ul>
+<li>痛症管理、營養支持、心理支持與生活品質維護</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="特殊族群乳癌治療考量" class="level2">
+<h2 class="anchored" data-anchor-id="特殊族群乳癌治療考量">4.6 特殊族群乳癌治療考量</h2>
+<hr>
+<section id="男性乳癌治療要點" class="level3">
+<h3 class="anchored" data-anchor-id="男性乳癌治療要點">4.6.1 男性乳癌治療要點</h3>
+<ul>
+<li>通常接受乳房切除術</li>
+<li>ER/PR陽性比例高，建議長期內分泌治療</li>
+</ul>
+</section>
+<section id="懷孕期間乳癌的治療" class="level3">
+<h3 class="anchored" data-anchor-id="懷孕期間乳癌的治療">4.6.2 懷孕期間乳癌的治療</h3>
+<ul>
+<li>懷孕期可安全進行乳房手術</li>
+<li>化療於妊娠中期後相對安全；需避免放療與荷爾蒙療法</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="治療過程中的副作用管理" class="level2">
+<h2 class="anchored" data-anchor-id="治療過程中的副作用管理">4.7 治療過程中的副作用管理</h2>
+<hr>
+<section id="手術副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="手術副作用管理">4.7.1 手術副作用管理</h3>
+<ul>
+<li>疼痛控制</li>
+<li>術後淋巴水腫預防與處置</li>
+</ul>
+</section>
+<section id="放療副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="放療副作用管理">4.7.2 放療副作用管理</h3>
+<ul>
+<li>皮膚紅腫、疲勞、局部疼痛的緩解方式</li>
+</ul>
+</section>
+<section id="化療副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="化療副作用管理">4.7.3 化療副作用管理</h3>
+<ul>
+<li>噁心嘔吐控制</li>
+<li>白血球低下與感染預防</li>
+<li>神經病變（手腳麻木）管理</li>
+</ul>
+</section>
+<section id="內分泌療法副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="內分泌療法副作用管理">4.7.4 內分泌療法副作用管理</h3>
+<ul>
+<li>熱潮紅、骨質疏鬆與關節疼痛緩解</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何與醫療團隊討論治療方案" class="level2">
+<h2 class="anchored" data-anchor-id="如何與醫療團隊討論治療方案">4.8 如何與醫療團隊討論治療方案？</h2>
+<p>建議病友就以下問題主動與醫療團隊討論：</p>
+<ul>
+<li>治療目標與預期療效</li>
+<li>治療副作用的處理策略</li>
+<li>每種治療的利弊比較與選擇原因</li>
+<li>治療過程中的生活調整與注意事項</li>
+</ul>
+<hr>
+</section>
+<section id="本章小結-2" class="level2">
+<h2 class="anchored" data-anchor-id="本章小結-2">本章小結</h2>
+<p><strong>本章重點回顧</strong>：</p>
+<ul>
+<li>全面介紹各類乳癌的治療選項</li>
+<li>不同分期乳癌的治療原則與策略</li>
+<li>治療副作用的管理方式</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="第五部分乳癌治療期間與後續的支持性照護" class="level1">
+<h1>第五部分：乳癌治療期間與後續的支持性照護</h1>
+<hr>
+<section id="乳房重建手術的選擇與考量" class="level2">
+<h2 class="anchored" data-anchor-id="乳房重建手術的選擇與考量">5.1 乳房重建手術的選擇與考量</h2>
+<hr>
+<section id="乳房重建的意義與目標" class="level3">
+<h3 class="anchored" data-anchor-id="乳房重建的意義與目標">5.1.1 乳房重建的意義與目標</h3>
+<ul>
+<li>改善外觀、恢復身體自信</li>
+<li>幫助心理復原，提升生活品質</li>
+</ul>
+<hr>
+</section>
+<section id="乳房重建的時機選擇" class="level3">
+<h3 class="anchored" data-anchor-id="乳房重建的時機選擇">5.1.2 乳房重建的時機選擇</h3>
+<ul>
+<li><strong>立即重建（Immediate Reconstruction）</strong>
+<ul>
+<li>與乳癌切除手術同時進行</li>
+<li>優點：心理影響較小、減少手術次數</li>
+</ul></li>
+<li><strong>延遲重建（Delayed Reconstruction）</strong>
+<ul>
+<li>乳癌治療完成後再進行重建</li>
+<li>適合需接受術後放射治療或其他特殊情況者</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="乳房重建的主要方式" class="level3">
+<h3 class="anchored" data-anchor-id="乳房重建的主要方式">5.1.3 乳房重建的主要方式</h3>
+<section id="自體組織重建autologous-reconstruction" class="level4">
+<h4 class="anchored" data-anchor-id="自體組織重建autologous-reconstruction">自體組織重建（Autologous Reconstruction）</h4>
+<ul>
+<li>使用自身組織進行重建（如腹部、背部、臀部）</li>
+<li>優點：外觀自然、長期效果佳</li>
+<li>缺點：恢復期較長、手術較複雜</li>
+</ul>
+</section>
+<section id="人工植入物重建implant-reconstruction" class="level4">
+<h4 class="anchored" data-anchor-id="人工植入物重建implant-reconstruction">人工植入物重建（Implant Reconstruction）</h4>
+<ul>
+<li>使用鹽水袋或矽膠義乳進行重建</li>
+<li>優點：手術簡單、恢復快速</li>
+<li>缺點：可能需要日後更換植入物，放射治療後可能增加併發症</li>
+</ul>
+</section>
+<section id="結合重建方式hybrid-reconstruction" class="level4">
+<h4 class="anchored" data-anchor-id="結合重建方式hybrid-reconstruction">結合重建方式（Hybrid Reconstruction）</h4>
+<ul>
+<li>自體組織加人工植入物之綜合方法</li>
+<li>適合組織量不足或需補強重建效果之患者</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何選擇適合自己的重建方式" class="level3">
+<h3 class="anchored" data-anchor-id="如何選擇適合自己的重建方式">5.1.4 如何選擇適合自己的重建方式？</h3>
+<ul>
+<li>根據年齡、體型、治療需求（如放射治療）、個人偏好做出選擇</li>
+<li>與整形外科及乳癌專科醫師充分溝通討論</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="放射治療對乳房重建的影響與處理策略" class="level2">
+<h2 class="anchored" data-anchor-id="放射治療對乳房重建的影響與處理策略">5.2 放射治療對乳房重建的影響與處理策略</h2>
+<hr>
+<section id="放射治療與乳房重建時機的協調" class="level3">
+<h3 class="anchored" data-anchor-id="放射治療與乳房重建時機的協調">5.2.1 放射治療與乳房重建時機的協調</h3>
+<ul>
+<li>放射治療前後組織可能有變化（皮膚纖維化、硬化）</li>
+<li>一般建議延遲重建，或考慮先植入組織擴張器（Tissue Expander）</li>
+</ul>
+<hr>
+</section>
+<section id="已接受放射治療後的乳房重建考量" class="level3">
+<h3 class="anchored" data-anchor-id="已接受放射治療後的乳房重建考量">5.2.2 已接受放射治療後的乳房重建考量</h3>
+<ul>
+<li>自體組織重建效果通常較佳，降低植入物相關風險</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="治療期間的副作用管理與支持性照護" class="level2">
+<h2 class="anchored" data-anchor-id="治療期間的副作用管理與支持性照護">5.3 治療期間的副作用管理與支持性照護</h2>
+<hr>
+<section id="術後常見副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="術後常見副作用管理">5.3.1 術後常見副作用管理</h3>
+<ul>
+<li>疼痛管理與復原</li>
+<li>傷口護理及感染預防</li>
+<li>淋巴水腫的預防與處理（如物理治療、壓力衣使用）</li>
+</ul>
+<hr>
+</section>
+<section id="化療期間的副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="化療期間的副作用管理">5.3.2 化療期間的副作用管理</h3>
+<ul>
+<li>噁心、嘔吐的預防與緩解（如抗嘔吐藥物）</li>
+<li>貧血與白血球下降的預防（如生長因子使用）</li>
+<li>神經病變（手腳麻木）的照護與復健</li>
+<li>疲勞的管理（規律運動、充足睡眠）</li>
+</ul>
+<hr>
+</section>
+<section id="放射治療期間的副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="放射治療期間的副作用管理">5.3.3 放射治療期間的副作用管理</h3>
+<ul>
+<li>皮膚護理：避免刺激性用品、使用醫療乳膏舒緩皮膚紅腫</li>
+<li>疲勞管理：定期休息、輕度運動</li>
+<li>局部疼痛與腫脹緩解措施</li>
+</ul>
+<hr>
+</section>
+<section id="內分泌治療期間的副作用管理" class="level3">
+<h3 class="anchored" data-anchor-id="內分泌治療期間的副作用管理">5.3.4 內分泌治療期間的副作用管理</h3>
+<ul>
+<li>熱潮紅、情緒波動緩解（如藥物輔助治療）</li>
+<li>骨質疏鬆的預防（鈣與維生素D補充、骨質密度監測）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="治療後的長期追蹤與健康促進" class="level2">
+<h2 class="anchored" data-anchor-id="治療後的長期追蹤與健康促進">5.4 治療後的長期追蹤與健康促進</h2>
+<hr>
+<section id="長期追蹤與復發監測的重要性" class="level3">
+<h3 class="anchored" data-anchor-id="長期追蹤與復發監測的重要性">5.4.1 長期追蹤與復發監測的重要性</h3>
+<ul>
+<li>定期回診進行臨床檢查與乳房影像檢查</li>
+<li>注意可能的復發症狀（如新腫塊、疼痛、咳嗽等）</li>
+</ul>
+<hr>
+</section>
+<section id="治療後健康生活型態的建立" class="level3">
+<h3 class="anchored" data-anchor-id="治療後健康生活型態的建立">5.4.2 治療後健康生活型態的建立</h3>
+<ul>
+<li>飲食營養調整（均衡飲食、高纖維低脂）</li>
+<li>規律運動計劃（每週至少150分鐘中等強度運動）</li>
+<li>減少飲酒、避免抽菸</li>
+</ul>
+<hr>
+</section>
+<section id="心理健康與社會支持" class="level3">
+<h3 class="anchored" data-anchor-id="心理健康與社會支持">5.4.3 心理健康與社會支持</h3>
+<ul>
+<li>心理諮詢與情緒支持資源介紹</li>
+<li>病友支持團體參與建議</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="乳癌治療後的復健與身體活動建議" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌治療後的復健與身體活動建議">5.5 乳癌治療後的復健與身體活動建議</h2>
+<hr>
+<section id="復健與物理治療" class="level3">
+<h3 class="anchored" data-anchor-id="復健與物理治療">5.5.1 復健與物理治療</h3>
+<ul>
+<li>手術後上肢活動範圍恢復運動</li>
+<li>淋巴水腫預防與治療性運動計畫</li>
+</ul>
+<hr>
+</section>
+<section id="推薦的身體活動與運動種類" class="level3">
+<h3 class="anchored" data-anchor-id="推薦的身體活動與運動種類">5.5.2 推薦的身體活動與運動種類</h3>
+<ul>
+<li>低強度有氧運動（如快走、游泳）</li>
+<li>彈力帶或輕重量訓練增強肌力</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何與醫療團隊討論治療後續計畫" class="level2">
+<h2 class="anchored" data-anchor-id="如何與醫療團隊討論治療後續計畫">5.6 如何與醫療團隊討論治療後續計畫？</h2>
+<p>建議患者與醫療團隊討論以下問題：</p>
+<ul>
+<li>重建手術的最佳選擇與時機</li>
+<li>復健與身體活動計畫</li>
+<li>長期追蹤與復發監測的具體時間表</li>
+<li>支持性照護的詳細策略</li>
+</ul>
+<hr>
+</section>
+<section id="治療對生育力與性荷爾蒙的影響" class="level2">
+<h2 class="anchored" data-anchor-id="治療對生育力與性荷爾蒙的影響">5.7 治療對生育力與性荷爾蒙的影響</h2>
+<section id="生育力與月經改變" class="level3">
+<h3 class="anchored" data-anchor-id="生育力與月經改變">5.7.1 生育力與月經改變</h3>
+<ul>
+<li>年輕女性接受化療可能導致月經停止或卵巢早衰。</li>
+<li>若未完成生育，建議於治療前考慮保存生育力：
+<ul>
+<li>卵子冷凍</li>
+<li>胚胎冷凍（需配偶或精子捐贈者）</li>
+<li>卵巢抑制療法（GnRH agonists）</li>
+</ul></li>
+</ul>
+</section>
+<section id="性荷爾蒙改變與性健康" class="level3">
+<h3 class="anchored" data-anchor-id="性荷爾蒙改變與性健康">5.7.2 性荷爾蒙改變與性健康</h3>
+<ul>
+<li>常見症狀包括熱潮紅、陰道乾燥、性慾降低。</li>
+<li>可使用潤滑劑、非荷爾蒙陰道保養品，或請婦科/心理師協助。</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="本章小結-3" class="level2">
+<h2 class="anchored" data-anchor-id="本章小結-3">本章小結</h2>
+<p><strong>本章重點回顧</strong>：</p>
+<ul>
+<li>全面介紹乳房重建方式與時機選擇</li>
+<li>詳述各種乳癌治療過程中副作用的處理與照護</li>
+<li>治療後的健康促進、長期追蹤及復健計畫</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="第六部分乳癌的臨床試驗與創新療法" class="level1">
+<h1>第六部分：乳癌的臨床試驗與創新療法</h1>
+<hr>
+<section id="什麼是乳癌臨床試驗" class="level2">
+<h2 class="anchored" data-anchor-id="什麼是乳癌臨床試驗">6.1 什麼是乳癌臨床試驗？</h2>
+<hr>
+<section id="臨床試驗的定義與目的" class="level3">
+<h3 class="anchored" data-anchor-id="臨床試驗的定義與目的">6.1.1 臨床試驗的定義與目的</h3>
+<ul>
+<li>臨床試驗是用於評估新療法、新藥物、新檢測方法安全性與有效性的研究</li>
+<li>目的為改善乳癌治療成果、降低副作用並提升患者生活品質</li>
+</ul>
+<hr>
+</section>
+<section id="臨床試驗的不同階段" class="level3">
+<h3 class="anchored" data-anchor-id="臨床試驗的不同階段">6.1.2 臨床試驗的不同階段</h3>
+<ul>
+<li><strong>第一期（Phase I）</strong>：
+<ul>
+<li>評估新治療方法安全性及藥物劑量</li>
+</ul></li>
+<li><strong>第二期（Phase II）</strong>：
+<ul>
+<li>評估治療有效性、進一步確認安全性</li>
+</ul></li>
+<li><strong>第三期（Phase III）</strong>：
+<ul>
+<li>大規模比較新療法與現有標準療法的療效與副作用</li>
+</ul></li>
+<li><strong>第四期（Phase IV）</strong>：
+<ul>
+<li>上市後長期監測新療法的安全性與有效性</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="乳癌臨床試驗的參與考量" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌臨床試驗的參與考量">6.2 乳癌臨床試驗的參與考量</h2>
+<hr>
+<section id="參與臨床試驗的好處" class="level3">
+<h3 class="anchored" data-anchor-id="參與臨床試驗的好處">6.2.1 參與臨床試驗的好處</h3>
+<ul>
+<li>提前接觸最新的療法</li>
+<li>定期且密切的醫療追蹤與照護</li>
+<li>對醫學研究與未來病人有重要貢獻</li>
+</ul>
+<hr>
+</section>
+<section id="參與臨床試驗的潛在風險與考量" class="level3">
+<h3 class="anchored" data-anchor-id="參與臨床試驗的潛在風險與考量">6.2.2 參與臨床試驗的潛在風險與考量</h3>
+<ul>
+<li>新療法可能存在未知副作用</li>
+<li>並非所有試驗都可帶來治療成效</li>
+</ul>
+<hr>
+</section>
+<section id="如何評估自己是否適合參與臨床試驗" class="level3">
+<h3 class="anchored" data-anchor-id="如何評估自己是否適合參與臨床試驗">6.2.3 如何評估自己是否適合參與臨床試驗？</h3>
+<ul>
+<li>與醫療團隊充分溝通，了解治療選項</li>
+<li>清楚瞭解臨床試驗的設計、潛在風險與獲益</li>
+<li>確認是否符合試驗參與資格（如病情階段、治療史等）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="常見的乳癌臨床試驗類型" class="level2">
+<h2 class="anchored" data-anchor-id="常見的乳癌臨床試驗類型">6.3 常見的乳癌臨床試驗類型</h2>
+<hr>
+<section id="新型藥物試驗novel-drug-trials" class="level3">
+<h3 class="anchored" data-anchor-id="新型藥物試驗novel-drug-trials">6.3.1 新型藥物試驗（Novel Drug Trials）</h3>
+<ul>
+<li>評估創新藥物，如標靶治療藥物、抗體藥物偶聯物（ADC）及新一代化療藥物</li>
+</ul>
+</section>
+<section id="免疫療法臨床試驗immunotherapy-trials" class="level3">
+<h3 class="anchored" data-anchor-id="免疫療法臨床試驗immunotherapy-trials">6.3.2 免疫療法臨床試驗（Immunotherapy Trials）</h3>
+<ul>
+<li>探討利用人體免疫系統對抗癌細胞的新治療模式（如PD-1/PD-L1抑制劑、細胞療法等）</li>
+</ul>
+</section>
+<section id="新型檢測方法試驗diagnostic-trials" class="level3">
+<h3 class="anchored" data-anchor-id="新型檢測方法試驗diagnostic-trials">6.3.3 新型檢測方法試驗（Diagnostic Trials）</h3>
+<ul>
+<li>改進乳癌早期偵測或更準確診斷工具的研究，如液體活檢技術（Liquid biopsy）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="乳癌治療領域的創新發展" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌治療領域的創新發展">6.4 乳癌治療領域的創新發展</h2>
+<hr>
+<section id="標靶治療的新進展" class="level3">
+<h3 class="anchored" data-anchor-id="標靶治療的新進展">6.4.1 標靶治療的新進展</h3>
+<ul>
+<li>新型HER2標靶藥物（如Enhertu、Tucatinib等）</li>
+<li>新型內分泌標靶療法（如CDK4/6抑制劑、PI3K抑制劑）</li>
+</ul>
+</section>
+<section id="抗體藥物偶聯物adc" class="level3">
+<h3 class="anchored" data-anchor-id="抗體藥物偶聯物adc">6.4.2 抗體藥物偶聯物（ADC）</h3>
+<ul>
+<li>如Trastuzumab Deruxtecan（Enhertu）、Sacituzumab Govitecan（Trodelvy）等</li>
+<li>結合化療藥物與抗體標靶療法的創新方式，有效降低副作用、提高療效</li>
+</ul>
+</section>
+<section id="免疫療法immunotherapy-1" class="level3">
+<h3 class="anchored" data-anchor-id="免疫療法immunotherapy-1">6.4.3 免疫療法（Immunotherapy）</h3>
+<ul>
+<li>三陰性乳癌（TNBC）的新選項，如Pembrolizumab（Keytruda）聯合化療</li>
+<li>未來更多免疫治療可能性與組合策略</li>
+</ul>
+</section>
+<section id="個人化醫療與精準醫療personalized-precision-medicine" class="level3">
+<h3 class="anchored" data-anchor-id="個人化醫療與精準醫療personalized-precision-medicine">6.4.4 個人化醫療與精準醫療（Personalized &amp; Precision Medicine）</h3>
+<ul>
+<li>根據基因檢測與腫瘤分子特徵，提供個別化治療方案</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何查詢與參與乳癌臨床試驗" class="level2">
+<h2 class="anchored" data-anchor-id="如何查詢與參與乳癌臨床試驗">6.5 如何查詢與參與乳癌臨床試驗？</h2>
+<hr>
+<section id="與醫療團隊討論" class="level3">
+<h3 class="anchored" data-anchor-id="與醫療團隊討論">6.5.1 與醫療團隊討論</h3>
+<ul>
+<li>向您的乳癌醫療團隊詢問適合的臨床試驗</li>
+</ul>
+</section>
+<section id="查詢公開資料庫與網站" class="level3">
+<h3 class="anchored" data-anchor-id="查詢公開資料庫與網站">6.5.2 查詢公開資料庫與網站</h3>
+<ul>
+<li>台灣衛生福利部臨床試驗查詢網</li>
+<li>ClinicalTrials.gov國際臨床試驗資料庫</li>
+<li>各大醫學中心臨床試驗網站</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="參與臨床試驗時的權利與保障" class="level2">
+<h2 class="anchored" data-anchor-id="參與臨床試驗時的權利與保障">6.6 參與臨床試驗時的權利與保障</h2>
+<hr>
+<section id="知情同意書informed-consent的重要性" class="level3">
+<h3 class="anchored" data-anchor-id="知情同意書informed-consent的重要性">6.6.1 知情同意書（Informed Consent）的重要性</h3>
+<ul>
+<li>充分了解試驗目的、過程、風險與獲益後自願參加</li>
+<li>隨時有權退出試驗，不會影響後續醫療照護</li>
+</ul>
+</section>
+<section id="個人資訊與資料的保密性" class="level3">
+<h3 class="anchored" data-anchor-id="個人資訊與資料的保密性">6.6.2 個人資訊與資料的保密性</h3>
+<ul>
+<li>患者資料皆經嚴格保密，保護隱私</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="與醫療團隊溝通臨床試驗的建議問題" class="level2">
+<h2 class="anchored" data-anchor-id="與醫療團隊溝通臨床試驗的建議問題">6.7 與醫療團隊溝通臨床試驗的建議問題</h2>
+<p>建議患者主動與醫療團隊討論以下議題：</p>
+<ul>
+<li>我是否符合臨床試驗的資格？</li>
+<li>臨床試驗的具體內容與進行方式為何？</li>
+<li>臨床試驗期間我將接受哪些檢查與追蹤？</li>
+<li>若臨床試驗無效，後續有其他治療方案嗎？</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="第七部分乳癌治療後的長期生活規劃與健康管理" class="level1">
+<h1>第七部分：乳癌治療後的長期生活規劃與健康管理</h1>
+<hr>
+<section id="乳癌治療後的長期追蹤與復發監測" class="level2">
+<h2 class="anchored" data-anchor-id="乳癌治療後的長期追蹤與復發監測">7.1 乳癌治療後的長期追蹤與復發監測</h2>
+<hr>
+<section id="定期追蹤的重要性" class="level3">
+<h3 class="anchored" data-anchor-id="定期追蹤的重要性">7.1.1 定期追蹤的重要性</h3>
+<ul>
+<li>及早發現復發或新癌症，進一步提高治療成功率</li>
+<li>追蹤治療後身體狀況與長期副作用處理</li>
+</ul>
+<hr>
+</section>
+<section id="追蹤檢查項目與頻率建議" class="level3">
+<h3 class="anchored" data-anchor-id="追蹤檢查項目與頻率建議">7.1.2 追蹤檢查項目與頻率建議</h3>
+<ul>
+<li>定期醫師臨床檢查（每3-6個月一次，治療後前5年）</li>
+<li>每年乳房攝影（雙側乳房）</li>
+<li>根據需求搭配乳房超音波或MRI</li>
+<li>必要時進行血液檢查與其他影像檢查</li>
+</ul>
+<hr>
+</section>
+<section id="如何辨識乳癌復發跡象" class="level3">
+<h3 class="anchored" data-anchor-id="如何辨識乳癌復發跡象">7.1.3 如何辨識乳癌復發跡象？</h3>
+<p>若發現以下症狀應立即就醫：</p>
+<ul>
+<li>新增乳房腫塊或疼痛</li>
+<li>乳房皮膚異常（紅腫、橘皮樣變化）</li>
+<li>持續性咳嗽或呼吸困難</li>
+<li>骨頭疼痛持續且無法緩解</li>
+<li>持續性頭痛或神經症狀（視力模糊、頭暈）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="治療後長期副作用的管理" class="level2">
+<h2 class="anchored" data-anchor-id="治療後長期副作用的管理">7.2 治療後長期副作用的管理</h2>
+<hr>
+<section id="淋巴水腫的管理與預防" class="level3">
+<h3 class="anchored" data-anchor-id="淋巴水腫的管理與預防">7.2.1 淋巴水腫的管理與預防</h3>
+<ul>
+<li>定期檢查、早期發現</li>
+<li>壓力衣穿戴、淋巴引流按摩、適當運動</li>
+</ul>
+<hr>
+</section>
+<section id="骨質疏鬆的監測與預防" class="level3">
+<h3 class="anchored" data-anchor-id="骨質疏鬆的監測與預防">7.2.2 骨質疏鬆的監測與預防</h3>
+<ul>
+<li>定期骨質密度檢查</li>
+<li>攝取充足鈣質與維生素D</li>
+<li>規律運動與必要時藥物治療</li>
+</ul>
+<hr>
+</section>
+<section id="心血管健康管理" class="level3">
+<h3 class="anchored" data-anchor-id="心血管健康管理">7.2.3 心血管健康管理</h3>
+<ul>
+<li>定期心血管風險評估（如血壓、血脂檢測）</li>
+<li>飲食、運動及生活型態調整，降低長期心臟病風險</li>
+</ul>
+<hr>
+</section>
+<section id="認知功能障礙化療腦的管理" class="level3">
+<h3 class="anchored" data-anchor-id="認知功能障礙化療腦的管理">7.2.4 認知功能障礙（化療腦）的管理</h3>
+<ul>
+<li>記憶力訓練、認知復健</li>
+<li>規律運動與充足睡眠改善認知功能</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="健康生活型態的長期管理策略" class="level2">
+<h2 class="anchored" data-anchor-id="健康生活型態的長期管理策略">7.3 健康生活型態的長期管理策略</h2>
+<hr>
+<section id="均衡營養與飲食建議" class="level3">
+<h3 class="anchored" data-anchor-id="均衡營養與飲食建議">7.3.1 均衡營養與飲食建議</h3>
+<ul>
+<li>增加蔬果、全穀物、高纖飲食</li>
+<li>限制加工食品、高糖、高脂食物</li>
+<li>適度補充維生素與礦物質</li>
+</ul>
+<hr>
+</section>
+<section id="規律運動與身體活動建議" class="level3">
+<h3 class="anchored" data-anchor-id="規律運動與身體活動建議">7.3.2 規律運動與身體活動建議</h3>
+<ul>
+<li>每週至少150分鐘的中等強度運動（如快走、游泳）</li>
+<li>每週2-3次肌力與柔軟度訓練</li>
+<li>避免久坐生活型態</li>
+</ul>
+<hr>
+</section>
+<section id="心理健康維護" class="level3">
+<h3 class="anchored" data-anchor-id="心理健康維護">7.3.3 心理健康維護</h3>
+<ul>
+<li>定期進行情緒評估與心理支持</li>
+<li>參與支持團體、心理諮詢或社交活動</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="心理與情緒管理的策略與資源" class="level2">
+<h2 class="anchored" data-anchor-id="心理與情緒管理的策略與資源">7.4 心理與情緒管理的策略與資源</h2>
+<hr>
+<section id="常見心理反應與管理策略" class="level3">
+<h3 class="anchored" data-anchor-id="常見心理反應與管理策略">7.4.1 常見心理反應與管理策略</h3>
+<ul>
+<li>焦慮與憂鬱情緒的識別與緩解方法（如冥想、正念練習）</li>
+<li>專業心理諮詢的時機與管道</li>
+</ul>
+<hr>
+</section>
+<section id="社會支持與病友團體" class="level3">
+<h3 class="anchored" data-anchor-id="社會支持與病友團體">7.4.2 社會支持與病友團體</h3>
+<ul>
+<li>參加病友團體的益處與資訊來源</li>
+<li>社區與網路資源介紹（如乳癌病友會、線上社群）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="家庭與社會生活的重建與調整" class="level2">
+<h2 class="anchored" data-anchor-id="家庭與社會生活的重建與調整">7.5 家庭與社會生活的重建與調整</h2>
+<hr>
+<section id="家庭關係與溝通技巧" class="level3">
+<h3 class="anchored" data-anchor-id="家庭關係與溝通技巧">7.5.1 家庭關係與溝通技巧</h3>
+<ul>
+<li>如何與家人討論治療後的感受與需求</li>
+<li>家庭支持在復原過程中的重要性</li>
+</ul>
+<hr>
+</section>
+<section id="親密關係與性健康的管理" class="level3">
+<h3 class="anchored" data-anchor-id="親密關係與性健康的管理">7.5.2 親密關係與性健康的管理</h3>
+<ul>
+<li>治療後常見的性健康問題（如性慾降低、陰道乾燥）</li>
+<li>有效溝通及專業協助管道（如婦科或心理專業協助）</li>
+</ul>
+<hr>
+</section>
+<section id="重返職場與社會活動" class="level3">
+<h3 class="anchored" data-anchor-id="重返職場與社會活動">7.5.3 重返職場與社會活動</h3>
+<ul>
+<li>職場復歸的準備與溝通技巧</li>
+<li>認識法律權益與勞工保障（如勞基法相關規定）</li>
+<li>社交與職場關係的適應方法</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="治療後長期規劃與未來目標設定" class="level2">
+<h2 class="anchored" data-anchor-id="治療後長期規劃與未來目標設定">7.6 治療後長期規劃與未來目標設定</h2>
+<hr>
+<section id="制訂健康管理與追蹤計畫" class="level3">
+<h3 class="anchored" data-anchor-id="制訂健康管理與追蹤計畫">7.6.1 制訂健康管理與追蹤計畫</h3>
+<ul>
+<li>訂立健康檢查與追蹤的長期計畫表</li>
+<li>設定健康生活與飲食習慣的可行性目標</li>
+</ul>
+<hr>
+</section>
+<section id="訂定個人生命目標與追求意義感" class="level3">
+<h3 class="anchored" data-anchor-id="訂定個人生命目標與追求意義感">7.6.2 訂定個人生命目標與追求意義感</h3>
+<ul>
+<li>如何設定治療後個人生活的新目標</li>
+<li>增進個人成長與心理復原力（如興趣培養、公益活動參與）</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="如何與醫療團隊討論治療後長期生活規劃" class="level2">
+<h2 class="anchored" data-anchor-id="如何與醫療團隊討論治療後長期生活規劃">7.7 如何與醫療團隊討論治療後長期生活規劃？</h2>
+<p>建議患者與醫療團隊主動討論以下問題：</p>
+<ul>
+<li>個人化追蹤計畫與頻率</li>
+<li>長期副作用的監測與管理方法</li>
+<li>心理與社會支持的資源</li>
+<li>治療後生活重建的建議與協助</li>
+</ul>
+<hr>
+</section>
+<section id="本章小結-4" class="level2">
+<h2 class="anchored" data-anchor-id="本章小結-4">本章小結</h2>
+<p><strong>本章重點回顧</strong>：</p>
+<ul>
+<li>長期追蹤與復發監測的方式</li>
+<li>治療後長期副作用的全面管理策略</li>
+<li>心理健康、家庭生活與職場回歸的具體建議</li>
+<li>建立健康生活型態與未來規劃的重要性</li>
+</ul>
+<hr>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "已复制");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "已复制");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
