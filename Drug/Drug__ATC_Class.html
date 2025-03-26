@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Anatomical Therapeutic Chemical (ATC) Classification</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Drug__ATC_Class_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Drug__ATC_Class_files/libs/quarto-html/quarto.js"></script>
+<script src="Drug__ATC_Class_files/libs/quarto-html/popper.min.js"></script>
+<script src="Drug__ATC_Class_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Drug__ATC_Class_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Drug__ATC_Class_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Drug__ATC_Class_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Drug__ATC_Class_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Drug__ATC_Class_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Drug__ATC_Class_files/libs/bootstrap/bootstrap-762d9a5466594febb193879cb6a35051.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#l-antineoplastic-and-immunomodulating-agents" id="toc-l-antineoplastic-and-immunomodulating-agents" class="nav-link active" data-scroll-target="#l-antineoplastic-and-immunomodulating-agents">L – ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS</a>
+  <ul>
+  <li><a href="#l01-antineoplastic-agents" id="toc-l01-antineoplastic-agents" class="nav-link" data-scroll-target="#l01-antineoplastic-agents">L01 – ANTINEOPLASTIC AGENTS</a>
+  <ul>
+  <li><a href="#l01a-alkylating-agents" id="toc-l01a-alkylating-agents" class="nav-link" data-scroll-target="#l01a-alkylating-agents">L01A – Alkylating agents</a>
+  <ul>
+  <li><a href="#l01aa-nitrogen-mustard-analogues" id="toc-l01aa-nitrogen-mustard-analogues" class="nav-link" data-scroll-target="#l01aa-nitrogen-mustard-analogues">L01AA – Nitrogen mustard analogues</a></li>
+  <li><a href="#l01ab-alkyl-sulfonates" id="toc-l01ab-alkyl-sulfonates" class="nav-link" data-scroll-target="#l01ab-alkyl-sulfonates">L01AB – Alkyl sulfonates</a></li>
+  <li><a href="#l01ac-ethylene-imines" id="toc-l01ac-ethylene-imines" class="nav-link" data-scroll-target="#l01ac-ethylene-imines">L01AC – Ethylene imines</a></li>
+  <li><a href="#l01ad-nitrosoureas" id="toc-l01ad-nitrosoureas" class="nav-link" data-scroll-target="#l01ad-nitrosoureas">L01AD – Nitrosoureas</a></li>
+  <li><a href="#l01ag-epoxides" id="toc-l01ag-epoxides" class="nav-link" data-scroll-target="#l01ag-epoxides">L01AG – Epoxides</a></li>
+  <li><a href="#l01ax-other-alkylating-agents" id="toc-l01ax-other-alkylating-agents" class="nav-link" data-scroll-target="#l01ax-other-alkylating-agents">L01AX – Other alkylating agents</a></li>
+  </ul></li>
+  <li><a href="#l01b-antimetabolites" id="toc-l01b-antimetabolites" class="nav-link" data-scroll-target="#l01b-antimetabolites">L01B – Antimetabolites</a>
+  <ul>
+  <li><a href="#l01ba-folic-acid-analogues" id="toc-l01ba-folic-acid-analogues" class="nav-link" data-scroll-target="#l01ba-folic-acid-analogues">L01BA – Folic acid analogues</a></li>
+  <li><a href="#l01bb-purine-analogues" id="toc-l01bb-purine-analogues" class="nav-link" data-scroll-target="#l01bb-purine-analogues">L01BB – Purine analogues</a></li>
+  <li><a href="#l01bc-pyrimidine-analogues" id="toc-l01bc-pyrimidine-analogues" class="nav-link" data-scroll-target="#l01bc-pyrimidine-analogues">L01BC – Pyrimidine analogues</a></li>
+  </ul></li>
+  <li><a href="#l01c-plant-alkaloids-and-other-natural-products" id="toc-l01c-plant-alkaloids-and-other-natural-products" class="nav-link" data-scroll-target="#l01c-plant-alkaloids-and-other-natural-products">L01C – Plant alkaloids and other natural products</a>
+  <ul>
+  <li><a href="#l01ca-vinca-alkaloids" id="toc-l01ca-vinca-alkaloids" class="nav-link" data-scroll-target="#l01ca-vinca-alkaloids">L01CA – Vinca alkaloids</a></li>
+  <li><a href="#l01cb-podophyllotoxin-derivatives" id="toc-l01cb-podophyllotoxin-derivatives" class="nav-link" data-scroll-target="#l01cb-podophyllotoxin-derivatives">L01CB – Podophyllotoxin derivatives</a></li>
+  <li><a href="#l01cc-colchicine-derivatives" id="toc-l01cc-colchicine-derivatives" class="nav-link" data-scroll-target="#l01cc-colchicine-derivatives">L01CC – Colchicine derivatives</a></li>
+  <li><a href="#l01cd-taxanes" id="toc-l01cd-taxanes" class="nav-link" data-scroll-target="#l01cd-taxanes">L01CD – Taxanes</a></li>
+  <li><a href="#l01ce-camptothecin-derivatives" id="toc-l01ce-camptothecin-derivatives" class="nav-link" data-scroll-target="#l01ce-camptothecin-derivatives">L01CE – Camptothecin derivatives</a></li>
+  </ul></li>
+  <li><a href="#l01d-cytotoxic-antibiotics-and-related-substances" id="toc-l01d-cytotoxic-antibiotics-and-related-substances" class="nav-link" data-scroll-target="#l01d-cytotoxic-antibiotics-and-related-substances">L01D – Cytotoxic antibiotics and related substances</a>
+  <ul>
+  <li><a href="#l01da-actinomycines" id="toc-l01da-actinomycines" class="nav-link" data-scroll-target="#l01da-actinomycines">L01DA – Actinomycines</a></li>
+  <li><a href="#l01db-anthracyclines-and-related-substances" id="toc-l01db-anthracyclines-and-related-substances" class="nav-link" data-scroll-target="#l01db-anthracyclines-and-related-substances">L01DB – Anthracyclines and related substances</a></li>
+  <li><a href="#l01dc-other-cytotoxic-antibiotics" id="toc-l01dc-other-cytotoxic-antibiotics" class="nav-link" data-scroll-target="#l01dc-other-cytotoxic-antibiotics">L01DC – Other cytotoxic antibiotics</a></li>
+  </ul></li>
+  <li><a href="#l01e-protein-kinase-inhibitors" id="toc-l01e-protein-kinase-inhibitors" class="nav-link" data-scroll-target="#l01e-protein-kinase-inhibitors">L01E – Protein kinase inhibitors</a>
+  <ul>
+  <li><a href="#l01ea-bcr-abl-tyrosine-kinase-inhibitors" id="toc-l01ea-bcr-abl-tyrosine-kinase-inhibitors" class="nav-link" data-scroll-target="#l01ea-bcr-abl-tyrosine-kinase-inhibitors">L01EA – BCR-ABL tyrosine kinase inhibitors</a></li>
+  <li><a href="#l01eb-epidermal-growth-factor-receptor-egfr-tyrosine-kinase-inhibitors" id="toc-l01eb-epidermal-growth-factor-receptor-egfr-tyrosine-kinase-inhibitors" class="nav-link" data-scroll-target="#l01eb-epidermal-growth-factor-receptor-egfr-tyrosine-kinase-inhibitors">L01EB – Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors</a></li>
+  <li><a href="#l01ec-b-raf-serine-threonine-kinase-braf-inhibitors" id="toc-l01ec-b-raf-serine-threonine-kinase-braf-inhibitors" class="nav-link" data-scroll-target="#l01ec-b-raf-serine-threonine-kinase-braf-inhibitors">L01EC – B-Raf serine-threonine kinase (BRAF) inhibitors</a></li>
+  <li><a href="#l01ed-anaplastic-lymphoma-kinase-alk-inhibitors" id="toc-l01ed-anaplastic-lymphoma-kinase-alk-inhibitors" class="nav-link" data-scroll-target="#l01ed-anaplastic-lymphoma-kinase-alk-inhibitors">L01ED – Anaplastic lymphoma kinase (ALK) inhibitors</a></li>
+  <li><a href="#l01ee-mitogen-activated-protein-kinase-mek-inhibitors" id="toc-l01ee-mitogen-activated-protein-kinase-mek-inhibitors" class="nav-link" data-scroll-target="#l01ee-mitogen-activated-protein-kinase-mek-inhibitors">L01EE – Mitogen-activated protein kinase (MEK) inhibitors</a></li>
+  <li><a href="#l01ef-cyclin-dependent-kinase-cdk-inhibitors" id="toc-l01ef-cyclin-dependent-kinase-cdk-inhibitors" class="nav-link" data-scroll-target="#l01ef-cyclin-dependent-kinase-cdk-inhibitors">L01EF – Cyclin-dependent kinase (CDK) inhibitors</a></li>
+  <li><a href="#l01eg-mammalian-target-of-rapamycin-mtor-kinase-inhibitors" id="toc-l01eg-mammalian-target-of-rapamycin-mtor-kinase-inhibitors" class="nav-link" data-scroll-target="#l01eg-mammalian-target-of-rapamycin-mtor-kinase-inhibitors">L01EG – Mammalian target of rapamycin (mTOR) kinase inhibitors</a></li>
+  <li><a href="#l01eh-human-epidermal-growth-factor-receptor-2-her2-tyrosine-kinase-inhibitors" id="toc-l01eh-human-epidermal-growth-factor-receptor-2-her2-tyrosine-kinase-inhibitors" class="nav-link" data-scroll-target="#l01eh-human-epidermal-growth-factor-receptor-2-her2-tyrosine-kinase-inhibitors">L01EH – Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors</a></li>
+  <li><a href="#l01ej-janus-associated-kinase-jak-inhibitors" id="toc-l01ej-janus-associated-kinase-jak-inhibitors" class="nav-link" data-scroll-target="#l01ej-janus-associated-kinase-jak-inhibitors">L01EJ – Janus-associated kinase (JAK) inhibitors</a></li>
+  <li><a href="#l01ek-vascular-endothelial-growth-factor-receptor-vegfr-tyrosine-kinase-inhibitors" id="toc-l01ek-vascular-endothelial-growth-factor-receptor-vegfr-tyrosine-kinase-inhibitors" class="nav-link" data-scroll-target="#l01ek-vascular-endothelial-growth-factor-receptor-vegfr-tyrosine-kinase-inhibitors">L01EK – Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors</a></li>
+  <li><a href="#l01el-brutons-tyrosine-kinase-btk-inhibitors" id="toc-l01el-brutons-tyrosine-kinase-btk-inhibitors" class="nav-link" data-scroll-target="#l01el-brutons-tyrosine-kinase-btk-inhibitors">L01EL – Bruton’s tyrosine kinase (BTK) inhibitors</a></li>
+  <li><a href="#l01em-phosphatidylinositol-3-kinase-pi3k-inhibitors" id="toc-l01em-phosphatidylinositol-3-kinase-pi3k-inhibitors" class="nav-link" data-scroll-target="#l01em-phosphatidylinositol-3-kinase-pi3k-inhibitors">L01EM – Phosphatidylinositol-3-kinase (PI3K) inhibitors</a></li>
+  <li><a href="#l01en-fibroblast-growth-factor-receptor-fgfr-tyrosine-kinase-inhibitors" id="toc-l01en-fibroblast-growth-factor-receptor-fgfr-tyrosine-kinase-inhibitors" class="nav-link" data-scroll-target="#l01en-fibroblast-growth-factor-receptor-fgfr-tyrosine-kinase-inhibitors">L01EN – Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors</a></li>
+  <li><a href="#l01ex-other-protein-kinase-inhibitors" id="toc-l01ex-other-protein-kinase-inhibitors" class="nav-link" data-scroll-target="#l01ex-other-protein-kinase-inhibitors">L01EX – Other protein kinase inhibitors</a></li>
+  </ul></li>
+  <li><a href="#l01f-monoclonal-antibodies-and-antibody-drug-conjugates" id="toc-l01f-monoclonal-antibodies-and-antibody-drug-conjugates" class="nav-link" data-scroll-target="#l01f-monoclonal-antibodies-and-antibody-drug-conjugates">L01F – Monoclonal antibodies and antibody-drug conjugates</a>
+  <ul>
+  <li><a href="#l01fa-cd20-clusters-of-differentiation-20-inhibitors" id="toc-l01fa-cd20-clusters-of-differentiation-20-inhibitors" class="nav-link" data-scroll-target="#l01fa-cd20-clusters-of-differentiation-20-inhibitors">L01FA – CD20 (Clusters of Differentiation 20) inhibitors</a></li>
+  <li><a href="#l01fb-cd22-clusters-of-differentiation-22-inhibitors" id="toc-l01fb-cd22-clusters-of-differentiation-22-inhibitors" class="nav-link" data-scroll-target="#l01fb-cd22-clusters-of-differentiation-22-inhibitors">L01FB – CD22 (Clusters of Differentiation 22) inhibitors</a></li>
+  <li><a href="#l01fc-cd38-clusters-of-differentiation-38-inhibitors" id="toc-l01fc-cd38-clusters-of-differentiation-38-inhibitors" class="nav-link" data-scroll-target="#l01fc-cd38-clusters-of-differentiation-38-inhibitors">L01FC – CD38 (Clusters of Differentiation 38) inhibitors</a></li>
+  <li><a href="#l01fd-her2-human-epidermal-growth-factor-receptor-2-inhibitors" id="toc-l01fd-her2-human-epidermal-growth-factor-receptor-2-inhibitors" class="nav-link" data-scroll-target="#l01fd-her2-human-epidermal-growth-factor-receptor-2-inhibitors">L01FD – HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors</a></li>
+  <li><a href="#l01fe-egfr-epidermal-growth-factor-receptor-inhibitors" id="toc-l01fe-egfr-epidermal-growth-factor-receptor-inhibitors" class="nav-link" data-scroll-target="#l01fe-egfr-epidermal-growth-factor-receptor-inhibitors">L01FE – EGFR (Epidermal Growth Factor Receptor) inhibitors</a></li>
+  <li><a href="#l01ff-pd-1pd-l1-programmed-cell-death-protein-1death-ligand-1-inhibitors" id="toc-l01ff-pd-1pd-l1-programmed-cell-death-protein-1death-ligand-1-inhibitors" class="nav-link" data-scroll-target="#l01ff-pd-1pd-l1-programmed-cell-death-protein-1death-ligand-1-inhibitors">L01FF – PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors</a></li>
+  <li><a href="#l01fg-vegfvegfr-vascular-endothelial-growth-factor--receptor-inhibitors" id="toc-l01fg-vegfvegfr-vascular-endothelial-growth-factor--receptor-inhibitors" class="nav-link" data-scroll-target="#l01fg-vegfvegfr-vascular-endothelial-growth-factor--receptor-inhibitors">L01FG – VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors</a></li>
+  <li><a href="#l01fx-other-monoclonal-antibodies-and-antibody-drug-conjugates" id="toc-l01fx-other-monoclonal-antibodies-and-antibody-drug-conjugates" class="nav-link" data-scroll-target="#l01fx-other-monoclonal-antibodies-and-antibody-drug-conjugates">L01FX – Other monoclonal antibodies and antibody drug conjugates</a></li>
+  <li><a href="#l01fy-combinations-of-monoclonal-antibodies-and-antibody-drug-conjugates" id="toc-l01fy-combinations-of-monoclonal-antibodies-and-antibody-drug-conjugates" class="nav-link" data-scroll-target="#l01fy-combinations-of-monoclonal-antibodies-and-antibody-drug-conjugates">L01FY – Combinations of monoclonal antibodies and antibody drug conjugates</a></li>
+  </ul></li>
+  <li><a href="#l01x-other-antineoplastic-agents" id="toc-l01x-other-antineoplastic-agents" class="nav-link" data-scroll-target="#l01x-other-antineoplastic-agents">L01X – OTHER ANTINEOPLASTIC AGENTS</a>
+  <ul>
+  <li><a href="#l01xa-platinum-compounds" id="toc-l01xa-platinum-compounds" class="nav-link" data-scroll-target="#l01xa-platinum-compounds">L01XA – Platinum compounds</a></li>
+  <li><a href="#l01xb-methylhydrazines" id="toc-l01xb-methylhydrazines" class="nav-link" data-scroll-target="#l01xb-methylhydrazines">L01XB – Methylhydrazines</a></li>
+  <li><a href="#l01xd-sensitizers-used-in-photodynamicradiation-therapy" id="toc-l01xd-sensitizers-used-in-photodynamicradiation-therapy" class="nav-link" data-scroll-target="#l01xd-sensitizers-used-in-photodynamicradiation-therapy">L01XD – Sensitizers used in photodynamic/radiation therapy</a></li>
+  <li><a href="#l01xf-retinoids-for-cancer-treatment" id="toc-l01xf-retinoids-for-cancer-treatment" class="nav-link" data-scroll-target="#l01xf-retinoids-for-cancer-treatment">L01XF – Retinoids for cancer treatment</a></li>
+  <li><a href="#l01xg-proteasome-inhibitors" id="toc-l01xg-proteasome-inhibitors" class="nav-link" data-scroll-target="#l01xg-proteasome-inhibitors">L01XG – Proteasome inhibitors</a></li>
+  <li><a href="#l01xh-histone-deacetylase-hdac-inhibitors" id="toc-l01xh-histone-deacetylase-hdac-inhibitors" class="nav-link" data-scroll-target="#l01xh-histone-deacetylase-hdac-inhibitors">L01XH – Histone deacetylase (HDAC) inhibitors</a></li>
+  <li><a href="#l01xj-hedgehog-pathway-inhibitors" id="toc-l01xj-hedgehog-pathway-inhibitors" class="nav-link" data-scroll-target="#l01xj-hedgehog-pathway-inhibitors">L01XJ – Hedgehog pathway inhibitors</a></li>
+  <li><a href="#l01xk-poly-adp-ribose-polymerase-parp-inhibitors" id="toc-l01xk-poly-adp-ribose-polymerase-parp-inhibitors" class="nav-link" data-scroll-target="#l01xk-poly-adp-ribose-polymerase-parp-inhibitors">L01XK – Poly (ADP-ribose) polymerase (PARP) inhibitors</a></li>
+  <li><a href="#l01xl-antineoplastic-cell-and-gene-therapy" id="toc-l01xl-antineoplastic-cell-and-gene-therapy" class="nav-link" data-scroll-target="#l01xl-antineoplastic-cell-and-gene-therapy">L01XL – Antineoplastic cell and gene therapy</a></li>
+  <li><a href="#l01xm-isocitrate-dehydrogenase-idh-inhibitors" id="toc-l01xm-isocitrate-dehydrogenase-idh-inhibitors" class="nav-link" data-scroll-target="#l01xm-isocitrate-dehydrogenase-idh-inhibitors">L01XM – Isocitrate dehydrogenase (IDH) inhibitors</a></li>
+  <li><a href="#l01xx-other-antineoplastic-agents" id="toc-l01xx-other-antineoplastic-agents" class="nav-link" data-scroll-target="#l01xx-other-antineoplastic-agents">L01XX – Other antineoplastic agents</a></li>
+  <li><a href="#l01xy-combinations-of-antineoplastic-agents" id="toc-l01xy-combinations-of-antineoplastic-agents" class="nav-link" data-scroll-target="#l01xy-combinations-of-antineoplastic-agents">L01XY – Combinations of antineoplastic agents</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Anatomical Therapeutic Chemical (ATC) Classification</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="l-antineoplastic-and-immunomodulating-agents" class="level2">
+<h2 class="anchored" data-anchor-id="l-antineoplastic-and-immunomodulating-agents">L – ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS</h2>
+<section id="l01-antineoplastic-agents" class="level3">
+<h3 class="anchored" data-anchor-id="l01-antineoplastic-agents">L01 – ANTINEOPLASTIC AGENTS</h3>
+<section id="l01a-alkylating-agents" class="level4">
+<h4 class="anchored" data-anchor-id="l01a-alkylating-agents">L01A – Alkylating agents</h4>
+<section id="l01aa-nitrogen-mustard-analogues" class="level5">
+<h5 class="anchored" data-anchor-id="l01aa-nitrogen-mustard-analogues">L01AA – Nitrogen mustard analogues</h5>
+<ul>
+<li>L01AA01: Cyclophosphamide</li>
+<li>L01AA02: Chlorambucil</li>
+<li>L01AA03: Melphalan</li>
+<li>L01AA05: Chlormethine</li>
+<li>L01AA06: Ifosfamide</li>
+<li>L01AA07: Trofosfamide</li>
+<li>L01AA08: Prednimustine</li>
+<li>L01AA09: Bendamustine</li>
+<li>L01AA10: Melphalan flufenamide</li>
+</ul>
+</section>
+<section id="l01ab-alkyl-sulfonates" class="level5">
+<h5 class="anchored" data-anchor-id="l01ab-alkyl-sulfonates">L01AB – Alkyl sulfonates</h5>
+<ul>
+<li>L01AB01: Busulfan</li>
+<li>L01AB02: Treosulfan</li>
+<li>L01AB03: Mannosulfan</li>
+</ul>
+</section>
+<section id="l01ac-ethylene-imines" class="level5">
+<h5 class="anchored" data-anchor-id="l01ac-ethylene-imines">L01AC – Ethylene imines</h5>
+<ul>
+<li>L01AC01: Thiotepa</li>
+<li>L01AC02: Triaziquone</li>
+<li>L01AC03: Carboquone</li>
+</ul>
+</section>
+<section id="l01ad-nitrosoureas" class="level5">
+<h5 class="anchored" data-anchor-id="l01ad-nitrosoureas">L01AD – Nitrosoureas</h5>
+<ul>
+<li>L01AD01: Carmustine</li>
+<li>L01AD02: Lomustine</li>
+<li>L01AD03: Semustine</li>
+<li>L01AD04: Streptozocin</li>
+<li>L01AD05: Fotemustine</li>
+<li>L01AD06: Nimustine</li>
+<li>L01AD07: Ranimustine</li>
+<li>L01AD08: Uramustine</li>
+</ul>
+</section>
+<section id="l01ag-epoxides" class="level5">
+<h5 class="anchored" data-anchor-id="l01ag-epoxides">L01AG – Epoxides</h5>
+<ul>
+<li>L01AG01: Etoglucid</li>
+</ul>
+</section>
+<section id="l01ax-other-alkylating-agents" class="level5">
+<h5 class="anchored" data-anchor-id="l01ax-other-alkylating-agents">L01AX – Other alkylating agents</h5>
+<ul>
+<li>L01AX01: Mitobronitol</li>
+<li>L01AX02: Pipobroman</li>
+<li>L01AX03: Temozolomide</li>
+<li>L01AX04: Dacarbazine</li>
+</ul>
+</section>
+</section>
+<section id="l01b-antimetabolites" class="level4">
+<h4 class="anchored" data-anchor-id="l01b-antimetabolites">L01B – Antimetabolites</h4>
+<section id="l01ba-folic-acid-analogues" class="level5">
+<h5 class="anchored" data-anchor-id="l01ba-folic-acid-analogues">L01BA – Folic acid analogues</h5>
+<ul>
+<li>L01BA01: Methotrexate</li>
+<li>L01BA03: Raltitrexed</li>
+<li>L01BA04: Pemetrexed</li>
+<li>L01BA05: Pralatrexate</li>
+</ul>
+</section>
+<section id="l01bb-purine-analogues" class="level5">
+<h5 class="anchored" data-anchor-id="l01bb-purine-analogues">L01BB – Purine analogues</h5>
+<ul>
+<li>L01BB02: Mercaptopurine</li>
+<li>L01BB03: Tioguanine</li>
+<li>L01BB04: Cladribine</li>
+<li>L01BB05: Fludarabine</li>
+<li>L01BB06: Clofarabine</li>
+<li>L01BB07: Nelarabine</li>
+<li>QL01BB90: Rabacfosadine</li>
+</ul>
+</section>
+<section id="l01bc-pyrimidine-analogues" class="level5">
+<h5 class="anchored" data-anchor-id="l01bc-pyrimidine-analogues">L01BC – Pyrimidine analogues</h5>
+<ul>
+<li>L01BC01: Cytarabine</li>
+<li>L01BC02: <a href="./Drug__fluorouracil.html">Fluorouracil</a></li>
+<li>L01BC03: Tegafur</li>
+<li>L01BC04: Carmofur</li>
+<li>L01BC05: Gemcitabine</li>
+<li>L01BC06: Capecitabine</li>
+<li>L01BC07: Azacitidine</li>
+<li>L01BC08: Decitabine</li>
+<li>L01BC09: Floxuridine</li>
+<li>L01BC52: Fluorouracil, combinations</li>
+<li>L01BC53: Tegafur, combinations</li>
+<li>L01BC58: Decitabine, combinations</li>
+<li>L01BC59: Trifluridine, combinations</li>
+</ul>
+</section>
+</section>
+<section id="l01c-plant-alkaloids-and-other-natural-products" class="level4">
+<h4 class="anchored" data-anchor-id="l01c-plant-alkaloids-and-other-natural-products">L01C – Plant alkaloids and other natural products</h4>
+<section id="l01ca-vinca-alkaloids" class="level5">
+<h5 class="anchored" data-anchor-id="l01ca-vinca-alkaloids">L01CA – Vinca alkaloids</h5>
+<ul>
+<li>L01CA01: Vinblastine</li>
+<li>L01CA02: Vincristine</li>
+<li>L01CA03: Vindesine</li>
+<li>L01CA04: Vinorelbine</li>
+<li>L01CA05: Vinflunine</li>
+<li>L01CA06: Vintafolide</li>
+</ul>
+</section>
+<section id="l01cb-podophyllotoxin-derivatives" class="level5">
+<h5 class="anchored" data-anchor-id="l01cb-podophyllotoxin-derivatives">L01CB – Podophyllotoxin derivatives</h5>
+<ul>
+<li>L01CB01: Etoposide</li>
+<li>L01CB02: Teniposide</li>
+</ul>
+</section>
+<section id="l01cc-colchicine-derivatives" class="level5">
+<h5 class="anchored" data-anchor-id="l01cc-colchicine-derivatives">L01CC – Colchicine derivatives</h5>
+<ul>
+<li>L01CC01: Demecolcine</li>
+</ul>
+</section>
+<section id="l01cd-taxanes" class="level5">
+<h5 class="anchored" data-anchor-id="l01cd-taxanes">L01CD – Taxanes</h5>
+<ul>
+<li>L01CD01: Paclitaxel</li>
+<li>L01CD02: Docetaxel</li>
+<li>L01CD03: Cabazitaxel</li>
+<li>L01CD04: Nab-paclitaxel</li>
+</ul>
+</section>
+<section id="l01ce-camptothecin-derivatives" class="level5">
+<h5 class="anchored" data-anchor-id="l01ce-camptothecin-derivatives">L01CE – Camptothecin derivatives</h5>
+<ul>
+<li>L01CE01: Topotecan</li>
+<li>L01CE02: <a href="./Drug__irinotecan.html">Irinotecan</a></li>
+<li>L01CE03: Belotecan</li>
+<li>L01CE04: Trastuzumab deruxtecan</li>
+</ul>
+</section>
+</section>
+<section id="l01d-cytotoxic-antibiotics-and-related-substances" class="level4">
+<h4 class="anchored" data-anchor-id="l01d-cytotoxic-antibiotics-and-related-substances">L01D – Cytotoxic antibiotics and related substances</h4>
+<section id="l01da-actinomycines" class="level5">
+<h5 class="anchored" data-anchor-id="l01da-actinomycines">L01DA – Actinomycines</h5>
+<ul>
+<li>L01DA01: Dactinomycin</li>
+</ul>
+</section>
+<section id="l01db-anthracyclines-and-related-substances" class="level5">
+<h5 class="anchored" data-anchor-id="l01db-anthracyclines-and-related-substances">L01DB – Anthracyclines and related substances</h5>
+<ul>
+<li>L01DB01: Doxorubicin</li>
+<li>L01DB02: Daunorubicin</li>
+<li>L01DB03: Epirubicin</li>
+<li>L01DB04: Idarubicin</li>
+<li>L01DB05: Aclarubicin</li>
+<li>L01DB06: Pirarubicin</li>
+<li>L01DB07: Zorubicin</li>
+<li>L01DB08: Mitoxantrone</li>
+<li>L01DB09: Valrubicin</li>
+<li>L01DB10: Amrubicin</li>
+<li>L01DB11: Pixantrone</li>
+</ul>
+</section>
+<section id="l01dc-other-cytotoxic-antibiotics" class="level5">
+<h5 class="anchored" data-anchor-id="l01dc-other-cytotoxic-antibiotics">L01DC – Other cytotoxic antibiotics</h5>
+<ul>
+<li>L01DC01: Bleomycin</li>
+<li>L01DC02: Plicamycin</li>
+<li>L01DC03: Mitomycin</li>
+<li>L01DC04: Amsacrine</li>
+<li>L01DC05: Enocitabine</li>
+<li>L01DC51: Bleomycin, combinations</li>
+</ul>
+</section>
+</section>
+<section id="l01e-protein-kinase-inhibitors" class="level4">
+<h4 class="anchored" data-anchor-id="l01e-protein-kinase-inhibitors">L01E – Protein kinase inhibitors</h4>
+<section id="l01ea-bcr-abl-tyrosine-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ea-bcr-abl-tyrosine-kinase-inhibitors">L01EA – BCR-ABL tyrosine kinase inhibitors</h5>
+<ul>
+<li>L01EA01: Imatinib</li>
+<li>L01EA02: Dasatinib</li>
+<li>L01EA03: Nilotinib</li>
+<li>L01EA04: Bosutinib</li>
+<li>L01EA05: Ponatinib</li>
+<li>L01EA06: Asciminib</li>
+</ul>
+</section>
+<section id="l01eb-epidermal-growth-factor-receptor-egfr-tyrosine-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01eb-epidermal-growth-factor-receptor-egfr-tyrosine-kinase-inhibitors">L01EB – Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors</h5>
+<ul>
+<li>L01EB01: Gefitinib</li>
+<li>L01EB02: Erlotinib</li>
+<li>L01EB03: Afatinib</li>
+<li>L01EB04: Osimertinib</li>
+<li>L01EB05: Rociletinib</li>
+<li>L01EB06: Olmutinib</li>
+<li>L01EB07: Dacomitinib</li>
+<li>L01EB08: Icotinib</li>
+<li>L01EB09: Lazertinib</li>
+<li>L01EB10: Mobocertinib</li>
+<li>L01EB11: Aumolertinib</li>
+</ul>
+</section>
+<section id="l01ec-b-raf-serine-threonine-kinase-braf-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ec-b-raf-serine-threonine-kinase-braf-inhibitors">L01EC – B-Raf serine-threonine kinase (BRAF) inhibitors</h5>
+<ul>
+<li>L01EC01: Vemurafenib</li>
+<li>L01EC02: Dabrafenib</li>
+<li>L01EC03: Encorafenib</li>
+</ul>
+</section>
+<section id="l01ed-anaplastic-lymphoma-kinase-alk-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ed-anaplastic-lymphoma-kinase-alk-inhibitors">L01ED – Anaplastic lymphoma kinase (ALK) inhibitors</h5>
+<ul>
+<li>L01ED01: Crizotinib</li>
+<li>L01ED02: Ceritinib</li>
+<li>L01ED03: Alectinib</li>
+<li>L01ED04: Brigatinib</li>
+<li>L01ED05: Lorlatinib</li>
+</ul>
+</section>
+<section id="l01ee-mitogen-activated-protein-kinase-mek-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ee-mitogen-activated-protein-kinase-mek-inhibitors">L01EE – Mitogen-activated protein kinase (MEK) inhibitors</h5>
+<ul>
+<li>L01EE01: Trametinib</li>
+<li>L01EE02: Cobimetinib</li>
+<li>L01EE03: Binimetinib</li>
+<li>L01EE04: Selumetinib</li>
+<li>L01EE05: Mirdametinib</li>
+</ul>
+</section>
+<section id="l01ef-cyclin-dependent-kinase-cdk-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ef-cyclin-dependent-kinase-cdk-inhibitors">L01EF – Cyclin-dependent kinase (CDK) inhibitors</h5>
+<ul>
+<li>L01EF01: Palbociclib</li>
+<li>L01EF02: Ribociclib</li>
+<li>L01EF03: Abemaciclib</li>
+</ul>
+</section>
+<section id="l01eg-mammalian-target-of-rapamycin-mtor-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01eg-mammalian-target-of-rapamycin-mtor-kinase-inhibitors">L01EG – Mammalian target of rapamycin (mTOR) kinase inhibitors</h5>
+<ul>
+<li>L01EG01: Temsirolimus</li>
+<li>L01EG02: Everolimus</li>
+<li>L01EG03: Ridaforolimus</li>
+<li>L01EG04: Sirolimus</li>
+</ul>
+</section>
+<section id="l01eh-human-epidermal-growth-factor-receptor-2-her2-tyrosine-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01eh-human-epidermal-growth-factor-receptor-2-her2-tyrosine-kinase-inhibitors">L01EH – Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors</h5>
+<ul>
+<li>L01EH01: Lapatinib</li>
+<li>L01EH02: Neratinib</li>
+<li>L01EH03: Tucatinib</li>
+</ul>
+</section>
+<section id="l01ej-janus-associated-kinase-jak-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ej-janus-associated-kinase-jak-inhibitors">L01EJ – Janus-associated kinase (JAK) inhibitors</h5>
+<ul>
+<li>L01EJ01: Ruxolitinib</li>
+<li>L01EJ02: Fedratinib</li>
+<li>L01EJ03: Pacritinib</li>
+<li>L01EJ04: Momelotinib</li>
+</ul>
+</section>
+<section id="l01ek-vascular-endothelial-growth-factor-receptor-vegfr-tyrosine-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ek-vascular-endothelial-growth-factor-receptor-vegfr-tyrosine-kinase-inhibitors">L01EK – Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors</h5>
+<ul>
+<li>L01EK01: Axitinib</li>
+<li>L01EK02: Cediranib</li>
+<li>L01EK03: Tivozanib</li>
+<li>L01EK04: Fruquintinib</li>
+</ul>
+</section>
+<section id="l01el-brutons-tyrosine-kinase-btk-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01el-brutons-tyrosine-kinase-btk-inhibitors">L01EL – Bruton’s tyrosine kinase (BTK) inhibitors</h5>
+<ul>
+<li>L01EL01: Ibrutinib</li>
+<li>L01EL02: Acalabrutinib</li>
+<li>L01EL03: Zanubrutinib</li>
+<li>L01EL04: Orelabrutinib</li>
+<li>L01EL05: Pirtobrutinib</li>
+<li>L01EL06: Tirabrutinib</li>
+</ul>
+</section>
+<section id="l01em-phosphatidylinositol-3-kinase-pi3k-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01em-phosphatidylinositol-3-kinase-pi3k-inhibitors">L01EM – Phosphatidylinositol-3-kinase (PI3K) inhibitors</h5>
+<ul>
+<li>L01EM01: Idelalisib</li>
+<li>L01EM02: Copanlisib</li>
+<li>L01EM03: Alpelisib</li>
+<li>L01EM04: Duvelisib</li>
+<li>L01EM05: Parsaclisib</li>
+</ul>
+</section>
+<section id="l01en-fibroblast-growth-factor-receptor-fgfr-tyrosine-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01en-fibroblast-growth-factor-receptor-fgfr-tyrosine-kinase-inhibitors">L01EN – Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors</h5>
+<ul>
+<li>L01EN01: Erdafitinib</li>
+<li>L01EN02: Pemigatinib</li>
+<li>L01EN03: Infigratinib</li>
+<li>L01EN04: Futibatinib</li>
+</ul>
+</section>
+<section id="l01ex-other-protein-kinase-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ex-other-protein-kinase-inhibitors">L01EX – Other protein kinase inhibitors</h5>
+<ul>
+<li>L01EX01: Sunitinib</li>
+<li>L01EX02: Sorafenib</li>
+<li>L01EX03: Pazopanib</li>
+<li>L01EX04: Vandetanib</li>
+<li>L01EX05: Regorafenib</li>
+<li>L01EX06: Masitinib</li>
+<li>L01EX07: Cabozantinib</li>
+<li>L01EX08: Lenvatinib</li>
+<li>L01EX09: Nintedanib</li>
+<li>L01EX10: Midostaurin</li>
+<li>L01EX11: Quizartinib</li>
+<li>L01EX12: Larotrectinib</li>
+<li>L01EX13: Gilteritinib</li>
+<li>L01EX14: Entrectinib</li>
+<li>L01EX15: Pexidartinib</li>
+<li>L01EX17: Capmatinib</li>
+<li>L01EX18: Avapritinib</li>
+<li>L01EX19: Ripretinib</li>
+<li>L01EX21: Tepotinib</li>
+<li>L01EX22: Selpercatinib</li>
+<li>L01EX23: Pralsetinib</li>
+<li>L01EX24: Surufatinib</li>
+<li>L01EX25: Umbralisib</li>
+<li>L01EX26: Sitravatinib</li>
+<li>L01EX27: Capivasertib</li>
+<li>L01EX28: Repotrectinib</li>
+</ul>
+</section>
+</section>
+<section id="l01f-monoclonal-antibodies-and-antibody-drug-conjugates" class="level4">
+<h4 class="anchored" data-anchor-id="l01f-monoclonal-antibodies-and-antibody-drug-conjugates">L01F – Monoclonal antibodies and antibody-drug conjugates</h4>
+<section id="l01fa-cd20-clusters-of-differentiation-20-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01fa-cd20-clusters-of-differentiation-20-inhibitors">L01FA – CD20 (Clusters of Differentiation 20) inhibitors</h5>
+<ul>
+<li>L01FA01: Rituximab</li>
+<li>L01FA02: Ofatumumab</li>
+<li>L01FA03: Obinutuzumab</li>
+</ul>
+</section>
+<section id="l01fb-cd22-clusters-of-differentiation-22-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01fb-cd22-clusters-of-differentiation-22-inhibitors">L01FB – CD22 (Clusters of Differentiation 22) inhibitors</h5>
+<ul>
+<li>L01FB01: Inotuzumab ozogamicin</li>
+<li>L01FB02: Moxetumomab pasudotox</li>
+</ul>
+</section>
+<section id="l01fc-cd38-clusters-of-differentiation-38-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01fc-cd38-clusters-of-differentiation-38-inhibitors">L01FC – CD38 (Clusters of Differentiation 38) inhibitors</h5>
+<ul>
+<li>L01FC01: Daratumumab</li>
+<li>L01FC02: Isatuximab</li>
+</ul>
+</section>
+<section id="l01fd-her2-human-epidermal-growth-factor-receptor-2-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01fd-her2-human-epidermal-growth-factor-receptor-2-inhibitors">L01FD – HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors</h5>
+<ul>
+<li>L01FD01: Trastuzumab</li>
+<li>L01FD02: Pertuzumab</li>
+<li>L01FD03: Trastuzumab emtansine</li>
+<li>L01FD04: Trastuzumab deruxtecan</li>
+<li>L01FD05: Trastuzumab duocarmazine</li>
+<li>L01FD06: Margetuximab</li>
+<li>L01FD07: Zanidatamab</li>
+</ul>
+</section>
+<section id="l01fe-egfr-epidermal-growth-factor-receptor-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01fe-egfr-epidermal-growth-factor-receptor-inhibitors">L01FE – EGFR (Epidermal Growth Factor Receptor) inhibitors</h5>
+<ul>
+<li>L01FE01: Cetuximab</li>
+<li>L01FE02: Panitumumab</li>
+<li>L01FE03: Necitumumab</li>
+</ul>
+</section>
+<section id="l01ff-pd-1pd-l1-programmed-cell-death-protein-1death-ligand-1-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01ff-pd-1pd-l1-programmed-cell-death-protein-1death-ligand-1-inhibitors">L01FF – PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors</h5>
+<ul>
+<li>L01FF01: Nivolumab</li>
+<li>L01FF02: Pembrolizumab</li>
+<li>L01FF03: Durvalumab</li>
+<li>L01FF04: Avelumab</li>
+<li>L01FF05: Atezolizumab</li>
+<li>L01FF06: Cemiplimab</li>
+<li>L01FF07: Dostarlimab</li>
+<li>L01FF08: Prolgolimab</li>
+<li>L01FF09: Tislelizumab</li>
+<li>L01FF10: Retifanlimab</li>
+<li>L01FF11: Sugemalimab</li>
+<li>L01FF12: Serplulimab</li>
+<li>L01FF13: Toripalimab</li>
+</ul>
+</section>
+<section id="l01fg-vegfvegfr-vascular-endothelial-growth-factor--receptor-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01fg-vegfvegfr-vascular-endothelial-growth-factor--receptor-inhibitors">L01FG – VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors</h5>
+<ul>
+<li>L01FG01: Bevacizumab</li>
+<li>L01FG02: Ramucirumab</li>
+</ul>
+</section>
+<section id="l01fx-other-monoclonal-antibodies-and-antibody-drug-conjugates" class="level5">
+<h5 class="anchored" data-anchor-id="l01fx-other-monoclonal-antibodies-and-antibody-drug-conjugates">L01FX – Other monoclonal antibodies and antibody drug conjugates</h5>
+<ul>
+<li>L01FX01: Edrecolomab</li>
+<li>L01FX02: Gemtuzumab ozogamicin</li>
+<li>L01FX03: Catumaxomab</li>
+<li>L01FX04: Ipilimumab</li>
+<li>L01FX05: Brentuximab vedotin</li>
+<li>L01FX06: Dinutuximab beta</li>
+<li>L01FX07: Blinatumomab</li>
+<li>L01FX08: Elotuzumab</li>
+<li>L01FX09: Mogamulizumab</li>
+<li>L01FX10: Olaratumab</li>
+<li>L01FX11: Bermekimab</li>
+<li>L01FX12: Tafasitamab</li>
+<li>L01FX13: Enfortumab vedotin</li>
+<li>L01FX14: Polatuzumab vedotin</li>
+<li>L01FX15: Belantamab mafodotin</li>
+<li>L01FX16: Oportuzumab monatox</li>
+<li>L01FX17: Sacituzumab govitecan</li>
+<li>L01FX18: Amivantamab</li>
+<li>L01FX19: Sabatolimab</li>
+<li>L01FX20: Tremelimumab</li>
+<li>L01FX21: Naxitamab</li>
+<li>L01FX22: Loncastuximab tesirine</li>
+<li>L01FX23: Tisotumab vedotin</li>
+<li>L01FX24: Teclistamab</li>
+<li>L01FX25: Mosunetuzumab</li>
+<li>L01FX26: Mirvetuximab soravtansine</li>
+<li>L01FX27: Epcoritamab</li>
+<li>L01FX28: Glofitamab</li>
+<li>L01FX29: Talquetamab</li>
+<li>L01FX31: Zolbetuximab</li>
+<li>L01FX32: Elranatamab</li>
+<li>L01FX33: Tarlatamab</li>
+<li>L01FX34: Odronextamab</li>
+<li>L01FX35: Datopotamab deruxtecan</li>
+<li>L01FX36: Patritumab deruxtecan</li>
+</ul>
+</section>
+<section id="l01fy-combinations-of-monoclonal-antibodies-and-antibody-drug-conjugates" class="level5">
+<h5 class="anchored" data-anchor-id="l01fy-combinations-of-monoclonal-antibodies-and-antibody-drug-conjugates">L01FY – Combinations of monoclonal antibodies and antibody drug conjugates</h5>
+<ul>
+<li>L01FY01: Pertuzumab and trastuzumab</li>
+<li>L01FY02: Nivolumab and relatlimab</li>
+<li>L01FY03: Prolgolimab and nurulimab</li>
+</ul>
+</section>
+</section>
+<section id="l01x-other-antineoplastic-agents" class="level4">
+<h4 class="anchored" data-anchor-id="l01x-other-antineoplastic-agents">L01X – OTHER ANTINEOPLASTIC AGENTS</h4>
+<section id="l01xa-platinum-compounds" class="level5">
+<h5 class="anchored" data-anchor-id="l01xa-platinum-compounds">L01XA – Platinum compounds</h5>
+<ul>
+<li>L01XA01: Cisplatin</li>
+<li>L01XA02: Carboplatin</li>
+<li>L01XA03: <a href="./Drug__oxaliplatin.html">Oxaliplatin</a></li>
+<li>L01XA04: Satraplatin</li>
+<li>L01XA05: Polyplatillen</li>
+</ul>
+</section>
+<section id="l01xb-methylhydrazines" class="level5">
+<h5 class="anchored" data-anchor-id="l01xb-methylhydrazines">L01XB – Methylhydrazines</h5>
+<ul>
+<li>L01XB01: Procarbazine</li>
+</ul>
+</section>
+<section id="l01xd-sensitizers-used-in-photodynamicradiation-therapy" class="level5">
+<h5 class="anchored" data-anchor-id="l01xd-sensitizers-used-in-photodynamicradiation-therapy">L01XD – Sensitizers used in photodynamic/radiation therapy</h5>
+<ul>
+<li>L01XD01: Porfimer sodium</li>
+<li>L01XD03: Methyl aminolevulinate</li>
+<li>L01XD04: Aminolevulinic acid</li>
+<li>L01XD05: Temoporfin</li>
+<li>L01XD06: Efaproxiral</li>
+<li>L01XD07: Padeliporfin</li>
+</ul>
+</section>
+<section id="l01xf-retinoids-for-cancer-treatment" class="level5">
+<h5 class="anchored" data-anchor-id="l01xf-retinoids-for-cancer-treatment">L01XF – Retinoids for cancer treatment</h5>
+<ul>
+<li>L01XF01: Tretinoin</li>
+<li>L01XF02: Alitretinoin</li>
+<li>L01XF03: Bexarotene</li>
+</ul>
+</section>
+<section id="l01xg-proteasome-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01xg-proteasome-inhibitors">L01XG – Proteasome inhibitors</h5>
+<ul>
+<li>L01XG01: Bortezomib</li>
+<li>L01XG02: Carfilzomib</li>
+<li>L01XG03: Ixazomib</li>
+</ul>
+</section>
+<section id="l01xh-histone-deacetylase-hdac-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01xh-histone-deacetylase-hdac-inhibitors">L01XH – Histone deacetylase (HDAC) inhibitors</h5>
+<ul>
+<li>L01XH01: Vorinostat</li>
+<li>L01XH02: Romidepsin</li>
+<li>L01XH03: Panobinostat</li>
+<li>L01XH04: Belinostat</li>
+<li>L01XH05: Entinostat</li>
+<li>L01XH06: Tucidinostat</li>
+<li>L01XH07: Resminostat</li>
+</ul>
+</section>
+<section id="l01xj-hedgehog-pathway-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01xj-hedgehog-pathway-inhibitors">L01XJ – Hedgehog pathway inhibitors</h5>
+<ul>
+<li>L01XJ01: Vismodegib</li>
+<li>L01XJ02: Sonidegib</li>
+<li>L01XJ03: Glasdegib</li>
+</ul>
+</section>
+<section id="l01xk-poly-adp-ribose-polymerase-parp-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01xk-poly-adp-ribose-polymerase-parp-inhibitors">L01XK – Poly (ADP-ribose) polymerase (PARP) inhibitors</h5>
+<ul>
+<li>L01XK01: Olaparib</li>
+<li>L01XK02: Niraparib</li>
+<li>L01XK03: Rucaparib</li>
+<li>L01XK04: Talazoparib</li>
+<li>L01XK05: Veliparib</li>
+<li>L01XK06: Pamiparib</li>
+<li>L01XK52: Niraparib and abiraterone</li>
+</ul>
+</section>
+<section id="l01xl-antineoplastic-cell-and-gene-therapy" class="level5">
+<h5 class="anchored" data-anchor-id="l01xl-antineoplastic-cell-and-gene-therapy">L01XL – Antineoplastic cell and gene therapy</h5>
+<ul>
+<li>L01XL01: Sitimagene ceradenovec</li>
+<li>L01XL02: Talimogene laherparepvec</li>
+<li>L01XL03: Axicabtagene ciloleucel</li>
+<li>L01XL04: Tisagenlecleucel</li>
+<li>L01XL05: Ciltacabtagene autoleucel</li>
+<li>L01XL06: Brexucabtagene autoleucel</li>
+<li>L01XL07: Idecabtagene vicleucel</li>
+<li>L01XL08: Lisocabtagene maraleucel</li>
+<li>L01XL09: Tabelecleucel</li>
+<li>L01XL10: Nadofaragene firadenovec</li>
+<li>L01XL11: Lifileucel</li>
+<li>L01XL12: Obecabtagene autoleucel</li>
+</ul>
+</section>
+<section id="l01xm-isocitrate-dehydrogenase-idh-inhibitors" class="level5">
+<h5 class="anchored" data-anchor-id="l01xm-isocitrate-dehydrogenase-idh-inhibitors">L01XM – Isocitrate dehydrogenase (IDH) inhibitors</h5>
+<ul>
+<li>L01XM01: Enasidenib</li>
+<li>L01XM02: Ivosidenib</li>
+<li>L01XM03: Olutasidenib</li>
+<li>L01XM04: Vorasidenib</li>
+</ul>
+</section>
+<section id="l01xx-other-antineoplastic-agents" class="level5">
+<h5 class="anchored" data-anchor-id="l01xx-other-antineoplastic-agents">L01XX – Other antineoplastic agents</h5>
+<ul>
+<li>L01XX01: Amsacrine</li>
+<li>L01XX02: Asparaginase</li>
+<li>L01XX03: Altretamine</li>
+<li>L01XX05: Hydroxycarbamide</li>
+<li>L01XX07: Lonidamine</li>
+<li>L01XX08: Pentostatin</li>
+<li>L01XX10: Masoprocol</li>
+<li>L01XX11: Estramustine</li>
+<li>L01XX16: Mitoguazone</li>
+<li>L01XX18: Tiazofurine</li>
+<li>L01XX23: Mitotane</li>
+<li>L01XX24: Pegaspargase</li>
+<li>L01XX27: Arsenic trioxide</li>
+<li>L01XX29: Denileukin diftitox</li>
+<li>L01XX33: Celecoxib</li>
+<li>L01XX35: Anagrelide</li>
+<li>L01XX36: Oblimersen</li>
+<li>L01XX40: Omacetaxine mepesuccinate</li>
+<li>L01XX41: Eribulin</li>
+<li>L01XX44: Aflibercept</li>
+<li>L01XX52: Venetoclax</li>
+<li>L01XX53: Vosaroxin</li>
+<li>L01XX57: Plitidepsin</li>
+<li>L01XX58: Epacadostat</li>
+<li>L01XX66: Selinexor</li>
+<li>L01XX67: Tagraxofusp</li>
+<li>L01XX69: Lurbinectedin</li>
+<li>L01XX72: Tazemetostat</li>
+<li>L01XX73: Sotorasib</li>
+<li>L01XX74: Belzutifan</li>
+<li>L01XX75: Tebentafusp</li>
+<li>L01XX77: Adagrasib</li>
+<li>L01XX78: Navitoclax</li>
+<li>L01XX79: Eflornithine</li>
+<li>L01XX80: Imetelstat</li>
+<li>L01XX81: Nirogacestat</li>
+<li>L01XX82: Darinaparsin</li>
+<li>L01XX83: Para-toluenesulfonamide</li>
+<li>L01XX84: Pelabresib</li>
+<li>L01XX85: Idroxioleic acid</li>
+<li>L01XX86: Calaspargase pegol</li>
+</ul>
+</section>
+<section id="l01xy-combinations-of-antineoplastic-agents" class="level5">
+<h5 class="anchored" data-anchor-id="l01xy-combinations-of-antineoplastic-agents">L01XY – Combinations of antineoplastic agents</h5>
+<ul>
+<li>L01XY01: Cytarabine and daunorubicin</li>
+<li>L01XY04: Bifikafusp alfa and onfekafusp alfa</li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "已复制");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "已复制");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
