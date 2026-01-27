@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cisplatin</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Drug__cisplatin_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Drug__cisplatin_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Drug__cisplatin_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Drug__cisplatin_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="Drug__cisplatin_files/libs/quarto-html/popper.min.js"></script>
+<script src="Drug__cisplatin_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Drug__cisplatin_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Drug__cisplatin_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Drug__cisplatin_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Drug__cisplatin_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Drug__cisplatin_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Drug__cisplatin_files/libs/bootstrap/bootstrap-23d7459adb797b75e40559e01f95743f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#重要警語-us-boxed-warning" id="toc-重要警語-us-boxed-warning" class="nav-link active" data-scroll-target="#重要警語-us-boxed-warning">重要警語 (US Boxed Warning)</a></li>
+  <li><a href="#適應症-indications" id="toc-適應症-indications" class="nav-link" data-scroll-target="#適應症-indications">適應症 (Indications)</a>
+  <ul class="collapse">
+  <li><a href="#核准適應症-labeled" id="toc-核准適應症-labeled" class="nav-link" data-scroll-target="#核准適應症-labeled">核准適應症 (labeled)</a></li>
+  <li><a href="#非核准適應症-成人-off-label" id="toc-非核准適應症-成人-off-label" class="nav-link" data-scroll-target="#非核准適應症-成人-off-label">非核准適應症 (成人, off-label)</a></li>
+  </ul></li>
+  <li><a href="#劑量-dosing" id="toc-劑量-dosing" class="nav-link" data-scroll-target="#劑量-dosing">劑量 (Dosing)</a>
+  <ul class="collapse">
+  <li><a href="#成人一般原則" id="toc-成人一般原則" class="nav-link" data-scroll-target="#成人一般原則">成人一般原則</a></li>
+  <li><a href="#成人與兒童一般劑量-仿單" id="toc-成人與兒童一般劑量-仿單" class="nav-link" data-scroll-target="#成人與兒童一般劑量-仿單">成人與兒童一般劑量 (仿單)</a></li>
+  <li><a href="#腎功能不全-kidney-impairment" id="toc-腎功能不全-kidney-impairment" class="nav-link" data-scroll-target="#腎功能不全-kidney-impairment">腎功能不全 (kidney impairment)</a></li>
+  <li><a href="#肝功能不全-liver-impairment" id="toc-肝功能不全-liver-impairment" class="nav-link" data-scroll-target="#肝功能不全-liver-impairment">肝功能不全 (liver impairment)</a></li>
+  <li><a href="#依毒性調整-toxicity-based-adjustment" id="toc-依毒性調整-toxicity-based-adjustment" class="nav-link" data-scroll-target="#依毒性調整-toxicity-based-adjustment">依毒性調整 (toxicity-based adjustment)</a></li>
+  <li><a href="#老年人" id="toc-老年人" class="nav-link" data-scroll-target="#老年人">老年人</a></li>
+  <li><a href="#小兒" id="toc-小兒" class="nav-link" data-scroll-target="#小兒">小兒</a></li>
+  </ul></li>
+  <li><a href="#給藥方式輸注與配製-administration-preparation" id="toc-給藥方式輸注與配製-administration-preparation" class="nav-link" data-scroll-target="#給藥方式輸注與配製-administration-preparation">給藥方式、輸注與配製 (Administration / Preparation)</a>
+  <ul class="collapse">
+  <li><a href="#輸注途徑與輸注時間" id="toc-輸注途徑與輸注時間" class="nav-link" data-scroll-target="#輸注途徑與輸注時間">輸注途徑與輸注時間</a></li>
+  <li><a href="#補液配製操作與不相容性-仿單" id="toc-補液配製操作與不相容性-仿單" class="nav-link" data-scroll-target="#補液配製操作與不相容性-仿單">補液、配製、操作與不相容性 (仿單)</a></li>
+  </ul></li>
+  <li><a href="#劑型成分與規格-dosage-forms-composition" id="toc-劑型成分與規格-dosage-forms-composition" class="nav-link" data-scroll-target="#劑型成分與規格-dosage-forms-composition">劑型、成分與規格 (Dosage forms / Composition)</a></li>
+  <li><a href="#包裝儲存與安定性-storage-stability" id="toc-包裝儲存與安定性-storage-stability" class="nav-link" data-scroll-target="#包裝儲存與安定性-storage-stability">包裝、儲存與安定性 (Storage / Stability)</a></li>
+  <li><a href="#禁忌-contraindications" id="toc-禁忌-contraindications" class="nav-link" data-scroll-target="#禁忌-contraindications">禁忌 (Contraindications)</a></li>
+  <li><a href="#警語及注意事項-warnings-precautions" id="toc-警語及注意事項-warnings-precautions" class="nav-link" data-scroll-target="#警語及注意事項-warnings-precautions">警語及注意事項 (Warnings / Precautions)</a></li>
+  <li><a href="#不良反應-adverse-reactions" id="toc-不良反應-adverse-reactions" class="nav-link" data-scroll-target="#不良反應-adverse-reactions">不良反應 (Adverse Reactions)</a></li>
+  <li><a href="#交互作用-drug-interactions" id="toc-交互作用-drug-interactions" class="nav-link" data-scroll-target="#交互作用-drug-interactions">交互作用 (Drug Interactions)</a></li>
+  <li><a href="#生殖懷孕哺乳-reproductive-pregnancy-lactation" id="toc-生殖懷孕哺乳-reproductive-pregnancy-lactation" class="nav-link" data-scroll-target="#生殖懷孕哺乳-reproductive-pregnancy-lactation">生殖、懷孕、哺乳 (Reproductive / Pregnancy / Lactation)</a></li>
+  <li><a href="#監測-monitoring" id="toc-監測-monitoring" class="nav-link" data-scroll-target="#監測-monitoring">監測 (Monitoring)</a></li>
+  <li><a href="#用藥安全-medication-safety" id="toc-用藥安全-medication-safety" class="nav-link" data-scroll-target="#用藥安全-medication-safety">用藥安全 (Medication Safety)</a></li>
+  <li><a href="#作用機轉-mechanism-of-action" id="toc-作用機轉-mechanism-of-action" class="nav-link" data-scroll-target="#作用機轉-mechanism-of-action">作用機轉 (Mechanism of Action)</a></li>
+  <li><a href="#藥物動力學-pharmacokinetics" id="toc-藥物動力學-pharmacokinetics" class="nav-link" data-scroll-target="#藥物動力學-pharmacokinetics">藥物動力學 (Pharmacokinetics)</a></li>
+  <li><a href="#過量-overdose" id="toc-過量-overdose" class="nav-link" data-scroll-target="#過量-overdose">過量 (Overdose)</a></li>
+  <li><a href="#危害性藥物處理-hazardous-drug-handling" id="toc-危害性藥物處理-hazardous-drug-handling" class="nav-link" data-scroll-target="#危害性藥物處理-hazardous-drug-handling">危害性藥物處理 (Hazardous Drug Handling)</a></li>
+  <li><a href="#參考資料-references" id="toc-參考資料-references" class="nav-link" data-scroll-target="#參考資料-references">參考資料 (References)</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cisplatin</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!--
+檔案狀態說明：
+- 本次整合僅能使用目前仍可存取的 2 份來源檔：
+  - [UpToDate] Cisplatin: Drug information - UpToDate
+  - [仿單-廠牌DBL] 西伯拉丁注射液 / CISPLATIN INJECTION "DBL" (衛署藥輸字第021782號)
+- 你先前若曾提供其他來源檔案，目前已過期而無法存取；若希望納入，請重新上傳後再生成。
+-->
+<section id="重要警語-us-boxed-warning" class="level2">
+<h2 class="anchored" data-anchor-id="重要警語-us-boxed-warning">重要警語 (US Boxed Warning)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>嚴重骨髓抑制 (myelosuppression)：cisplatin 可造成嚴重骨髓抑制，因感染致死；需監測血球，必要時中斷治療。</li>
+<li>嚴重噁心嘔吐 (nausea and vomiting)：cisplatin 可造成嚴重噁心嘔吐；需使用高效止吐預處置。</li>
+<li>腎毒性 (nephrotoxicity)：cisplatin 可造成嚴重腎毒性含急性腎衰竭；腎毒性與劑量相關且具累積性；需充分補液並監測腎功能與電解質；腎功能受損者考慮減量或替代治療。</li>
+<li>周邊神經病變 (peripheral neuropathy)：cisplatin 可造成與劑量相關的周邊神經病變，反覆療程更嚴重。</li>
+</ul></li>
+</ul>
+</section>
+<section id="適應症-indications" class="level2">
+<h2 class="anchored" data-anchor-id="適應症-indications">適應症 (Indications)</h2>
+<section id="核准適應症-labeled" class="level3">
+<h3 class="anchored" data-anchor-id="核准適應症-labeled">核准適應症 (labeled)</h3>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>晚期膀胱癌 (advanced bladder cancer)：治療晚期膀胱癌。</li>
+<li>晚期卵巢癌 (advanced ovarian cancer)：治療晚期卵巢癌。</li>
+<li>晚期睪丸癌 (advanced testicular cancer)：治療晚期睪丸癌。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>抗惡性腫瘍劑。</li>
+<li>適用於：轉移性非生殖細胞瘤的胚細胞瘤、晚期難治性卵巢瘤、晚期難治性膀胱瘤、難治性頭頸部鱗狀細胞瘤之緩和治療。</li>
+<li>可單獨使用，或與其他化學治療劑併用，亦可與放射線療法及外科合併使用。</li>
+</ul></li>
+</ul>
+</section>
+<section id="非核准適應症-成人-off-label" class="level3">
+<h3 class="anchored" data-anchor-id="非核准適應症-成人-off-label">非核准適應症 (成人, off-label)</h3>
+<ul>
+<li>[UpToDate] 成人 off-label 適應症清單
+<ul>
+<li>腎上腺皮質癌 (adrenocortical carcinoma)</li>
+<li>肛門癌 (anal carcinoma)</li>
+<li>膽道癌 (biliary tract cancer)</li>
+<li>腦轉移 (brain metastases) 來源為乳癌或非小細胞肺癌 (breast or non-small cell lung cancers)</li>
+<li>三陰性乳癌 (triple-negative breast cancer)</li>
+<li>子宮頸癌 (cervical cancer)</li>
+<li>子宮內膜癌 (endometrial carcinoma) 復發/轉移/高風險 (recurrent/metastatic/high-risk)</li>
+<li>食道癌 (esophageal cancer)</li>
+<li>胃癌 (gastric cancer)</li>
+<li>高風險妊娠滋養細胞腫瘤 (high-risk gestational trophoblastic neoplasia)</li>
+<li>頭頸癌 局部晚期或轉移 (head and neck cancer, locally advanced or metastatic)</li>
+<li>鼻咽癌 (nasopharyngeal carcinoma) 局部晚期/晚期或轉移 (locally advanced/advanced/metastatic)</li>
+<li>何杰金氏淋巴瘤 (Hodgkin lymphoma)</li>
+<li>胸膜間皮瘤 (pleural mesothelioma)</li>
+<li>多發性骨髓瘤 (multiple myeloma)</li>
+<li>神經內分泌腫瘤 轉移性癌 (neuroendocrine tumors, metastatic carcinoma)</li>
+<li>非何杰金氏淋巴瘤 復發或難治 (non-Hodgkin lymphoma, relapsed or refractory)</li>
+<li>非小細胞肺癌 (non-small cell lung cancer)</li>
+<li>骨肉瘤 (osteosarcoma)</li>
+<li>胰臟癌 局部晚期或轉移 (pancreatic cancer, locally advanced or metastatic)</li>
+<li>陰莖癌 轉移 (penile cancer, metastatic)</li>
+<li>原發性中樞神經系統淋巴瘤 復發或難治 (primary CNS lymphoma, relapsed or refractory)</li>
+<li>攝護腺癌 去勢抗性 轉移 (prostate cancer, castration-resistant, metastatic)</li>
+<li>小細胞肺癌 局限期 (small cell lung cancer, limited-stage)</li>
+<li>小細胞肺癌 廣泛期 (small cell lung cancer, extensive-stage)</li>
+<li>胸腺瘤或胸腺癌 (thymoma or thymic carcinoma)</li>
+<li>甲狀腺未分化癌 (anaplastic thyroid carcinoma)</li>
+<li>原發不明 腺癌 (unknown primary, adenocarcinoma)</li>
+<li>原發不明 鱗狀細胞癌 (unknown primary, squamous cell carcinoma)</li>
+<li>外陰癌 局部晚期 (vulvar cancer, locally advanced)</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="劑量-dosing" class="level2">
+<h2 class="anchored" data-anchor-id="劑量-dosing">劑量 (Dosing)</h2>
+<p>說明： - cisplatin 的具體劑量與時程高度依賴癌別與併用方案。 - 單位/劑量數值保留原始呈現。</p>
+<section id="成人一般原則" class="level3">
+<h3 class="anchored" data-anchor-id="成人一般原則">成人一般原則</h3>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>安全性：給藥前應適當補液，並在 cisplatin 給藥後 24 小時維持充分補液與尿量；可視臨床需要補充鎂 (magnesium)；每療程超過 100 mg/m2 的 cisplatin 劑量較少使用，應與開立者再次確認。</li>
+<li>臨床考量：cisplatin 屬高致吐風險 (high emetic potential)，建議使用止吐預防；off-label 劑量細節以方案/機構指引為準。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>cisplatin 有多種用藥劑量與時程；應依病人臨床、腎功能及血液學狀態決定劑量。</li>
+</ul></li>
+</ul>
+</section>
+<section id="成人與兒童一般劑量-仿單" class="level3">
+<h3 class="anchored" data-anchor-id="成人與兒童一般劑量-仿單">成人與兒童一般劑量 (仿單)</h3>
+<ul>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>每 3-4 週靜脈輸注一次，每次 50-100 mg/m2</li>
+<li>或每日靜脈輸注 15-20 mg/m2，連續投予 5 天，每 3-4 週一次</li>
+</ul></li>
+</ul>
+</section>
+<section id="腎功能不全-kidney-impairment" class="level3">
+<h3 class="anchored" data-anchor-id="腎功能不全-kidney-impairment">腎功能不全 (kidney impairment)</h3>
+<ul>
+<li>[UpToDate] 成人 (依 CrCl 分層；治癒意圖與緩和意圖分開)
+<ul>
+<li>治癒意圖 (curative intent)
+<ul>
+<li>CrCl ≥60 mL/minute：不需調整</li>
+<li>CrCl 50 to &lt;60 mL/minute：給予原建議劑量之 75%</li>
+<li>CrCl 40 to &lt;50 mL/minute：給予原建議劑量之 50%</li>
+<li>CrCl &lt;40 mL/minute：不建議使用</li>
+</ul></li>
+<li>緩和意圖 (palliative intent)
+<ul>
+<li>CrCl ≥60 mL/minute：不需調整</li>
+<li>CrCl 50 to &lt;60 mL/minute：給予原建議劑量之 75%</li>
+<li>CrCl &lt;50 mL/minute：不建議使用</li>
+</ul></li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>腎功能不全病人禁用 cisplatin (禁忌)。</li>
+<li>腎毒性為主要劑量限制性毒性，且與劑量相關並具累積性；治療前後補液可降低腎毒性。</li>
+</ul></li>
+</ul>
+</section>
+<section id="肝功能不全-liver-impairment" class="level3">
+<h3 class="anchored" data-anchor-id="肝功能不全-liver-impairment">肝功能不全 (liver impairment)</h3>
+<ul>
+<li>[UpToDate] 成人
+<ul>
+<li>cisplatin 主要為非酵素性代謝且以腎臟排除為主，預期不受肝功能影響；不需調整劑量。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>建議定期監測肝功能；既存肝功能異常者成人劑量應慎用。</li>
+<li>(仿單亦述 cisplatin 在肝臟有 high uptake，並有 AST/ALP 上升合併肝毒性臨床症狀之病例報告)</li>
+</ul></li>
+</ul>
+</section>
+<section id="依毒性調整-toxicity-based-adjustment" class="level3">
+<h3 class="anchored" data-anchor-id="依毒性調整-toxicity-based-adjustment">依毒性調整 (toxicity-based adjustment)</h3>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>血液學毒性：可能需中斷治療與/或減量。</li>
+<li>嚴重過敏反應：立即停藥並處置；既往嚴重過敏反應者不建議再挑戰 (rechallenge)。</li>
+<li>神經毒性：若出現有症狀之第 3-4 級周邊神經病變，考慮停用。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>骨髓功能低下者應減量。</li>
+<li>後續療程不應重複，直到腎功能與血球數達可接受門檻 (仿單列示血清肌酸酐、尿素、血小板、白血球等條件)。</li>
+</ul></li>
+</ul>
+</section>
+<section id="老年人" class="level3">
+<h3 class="anchored" data-anchor-id="老年人">老年人</h3>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>依成人劑量；≥65 歲可能更易腎毒性與周邊神經病變，需謹慎選擇劑量並密切監測。</li>
+</ul></li>
+</ul>
+</section>
+<section id="小兒" class="level3">
+<h3 class="anchored" data-anchor-id="小兒">小兒</h3>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>小兒劑量與腎/肝功能不全之調整，請依小兒條目與具體方案。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>cisplatin 亦可用於兒童；曾有遲發性聽力喪失報告，建議長期追蹤。</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="給藥方式輸注與配製-administration-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="給藥方式輸注與配製-administration-preparation">給藥方式、輸注與配製 (Administration / Preparation)</h2>
+<section id="輸注途徑與輸注時間" class="level3">
+<h3 class="anchored" data-anchor-id="輸注途徑與輸注時間">輸注途徑與輸注時間</h3>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>靜脈輸注 (IV)：可輸注 30 minutes to 4 hours，或以 1 mg/minute 速率輸注，或連續輸注 (continuous infusion，off-label)；速率依方案而異；不可快速靜脈推注 (rapid IV injection)。</li>
+<li>腹腔內給藥 (intraperitoneal，off-label route)：以溫熱生理食鹽水配製，經植入式腹腔導管盡快輸注。</li>
+<li>含鋁 (aluminum) 的針具或輸注器材不可用，避免沉澱與效價下降。</li>
+<li>高濃度時為起泡劑 (vesicant at higher concentrations)，低濃度為刺激物 (irritant)；需避免外滲 (extravasation)。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>補液後再 IV 輸注 cisplatin，輸注時間超過 1-2 小時。</li>
+<li>建議較長的 6-8 小時輸注時間，可降低腸胃與腎毒性。</li>
+<li>輸注瓶建議遮蓋避光。</li>
+<li>含鋁器材不可用於 cisplatin 投藥 (並於仿單不相容性段落再次強調)。</li>
+</ul></li>
+</ul>
+</section>
+<section id="補液配製操作與不相容性-仿單" class="level3">
+<h3 class="anchored" data-anchor-id="補液配製操作與不相容性-仿單">補液、配製、操作與不相容性 (仿單)</h3>
+<ul>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>治療前補充水分
+<ul>
+<li>治療前與治療後 24 小時應給予適當補液以確保尿量並降低腎毒性。</li>
+<li>可於 2 小時內輸注 2 公升 0.9% 氯化鈉輸注液或葡萄糖生理鹽水混合液 (例如 4% 葡萄糖及 1/5 的 0.9% 氯化鈉輸注液)。</li>
+<li>治療前補液最後 30 分鐘或補液後，可由側臂滴注 375 mL 10% mannitol 注射液。</li>
+</ul></li>
+<li>輸注液配製
+<ul>
+<li>CISPLATIN INJECTION “DBL” 必須加入 1 公升 0.9% 氯化鈉輸注液中。</li>
+</ul></li>
+<li>治療後補充水分
+<ul>
+<li>輸注後 24 小時內維持充足水分與尿量。</li>
+<li>目標為在 6-12 小時內輸注 2 公升 0.9% 氯化鈉輸注液或葡萄糖生理鹽水混合液。</li>
+</ul></li>
+<li>無菌與使用時限
+<ul>
+<li>本品及其混合物不含抗菌劑；建議臨用前再稀釋，配製後儘快開始輸注；應在製備後 24 小時內完成輸注並丟棄殘留物。</li>
+</ul></li>
+<li>處理注意事項 (細胞毒性藥物)
+<ul>
+<li>需受訓人員於指定區域操作，避免吸入與皮膚接觸，並穿戴防護裝備。</li>
+<li>眼睛接觸以清水/生理食鹽水沖洗；皮膚/黏膜接觸以肥皂與清水徹底清洗；攝入或吸入則立即就醫。</li>
+<li>建議懷孕人員避免處理細胞毒性藥物 (例如 cisplatin)。</li>
+<li>廢棄物處理：相關物品置於雙層密封聚乙烯袋，並於 1100 ℃ 下焚毀。</li>
+</ul></li>
+<li>不相容性 (incompatibility)
+<ul>
+<li>cisplatin 可與鋁產生交互作用形成黑色沉澱，含鋁組件之針頭、注射器、導管或 IV 套件不可用。</li>
+<li>亞硫酸氫鹽 (bisulphite)、偏亞硫酸氫鹽 (metabisulphite)、碳酸氫鈉 (sodium bicarbonate)、氟尿嘧啶 (fluorouracil) 對 cisplatin 安定性有不利影響。</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="劑型成分與規格-dosage-forms-composition" class="level2">
+<h2 class="anchored" data-anchor-id="劑型成分與規格-dosage-forms-composition">劑型、成分與規格 (Dosage forms / Composition)</h2>
+<ul>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>有效成分及含量：每 mL 含 cisplatin 1 mg。</li>
+<li>賦形劑：mannitol、氯化鈉、注射用水。</li>
+<li>劑型：注射液。</li>
+<li>外觀：清澈、無色至淡黃色無菌溶液；不含防腐劑。</li>
+</ul></li>
+<li>[UpToDate] (不同國家/產品之資訊可能不同)
+<ul>
+<li>美國 (US)：列示多種 IV 溶液規格 (含 preservative free) 與部分品牌/學名藥。</li>
+<li>加拿大 (Canada)：列示 IV 溶液 1 mg/mL (10 mL, 50 mL, 100 mL)。</li>
+<li>(UpToDate 亦含其他產品/價格等段落；若需完整原文，請直接參考你提供的 UpToDate 檔案)</li>
+</ul></li>
+</ul>
+</section>
+<section id="包裝儲存與安定性-storage-stability" class="level2">
+<h2 class="anchored" data-anchor-id="包裝儲存與安定性-storage-stability">包裝、儲存與安定性 (Storage / Stability)</h2>
+<ul>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>包裝：50、100 mL 小瓶裝，100 支以下小瓶盒裝。</li>
+<li>效期：標示於包裝上。</li>
+<li>儲存條件：15-25 ℃，不可冷藏/冷凍，避光。</li>
+<li>配製後安定性：以 0.9% 氯化鈉配製後之 cisplatin (0.15 mg/mL) 在室溫且避光條件下化學穩定 24 小時；僅供單次使用，未用完丟棄。</li>
+</ul></li>
+<li>[UpToDate]
+<ul>
+<li>儲存/配製後安定性：資料未提供 (在本次提供之 UpToDate 檔案可辨識段落中)。</li>
+</ul></li>
+</ul>
+</section>
+<section id="禁忌-contraindications" class="level2">
+<h2 class="anchored" data-anchor-id="禁忌-contraindications">禁忌 (Contraindications)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>對 cisplatin 或任何成分嚴重過敏 (severe hypersensitivity)。</li>
+<li>加拿大標示 (Canadian labeling) 額外禁忌：對其他含鉑化合物過敏；既存腎或聽力障礙 (除非效益大於風險)；骨髓抑制 (myelosuppression)。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>腎功能不全</li>
+<li>聽力障礙</li>
+<li>骨髓抑制</li>
+<li>懷孕或哺乳</li>
+<li>對 cisplatin 或含鉑化合物過敏史</li>
+</ul></li>
+</ul>
+</section>
+<section id="警語及注意事項-warnings-precautions" class="level2">
+<h2 class="anchored" data-anchor-id="警語及注意事項-warnings-precautions">警語及注意事項 (Warnings / Precautions)</h2>
+<ul>
+<li>[UpToDate] 重要注意事項
+<ul>
+<li>外滲 (extravasation)：高濃度為起泡劑、低濃度為刺激物；外滲可造成局部軟組織毒性；濃度 &gt;0.5 mg/mL 之輸注液可能導致蜂窩組織炎、纖維化、壞死、疼痛、水腫與紅斑。</li>
+<li>眼毒性 (ocular toxicity)：曾報告視神經炎、視乳頭水腫、皮質性盲；亦可見視力模糊與色覺改變，停藥後可改善但可能延遲。</li>
+<li>重症肌無力 (myasthenia gravis)：可能惡化。</li>
+<li>腫瘤溶解症候群 (tumor lysis syndrome)：曾報告高尿酸血症，必要時考慮降尿酸治療。</li>
+<li>用藥安全：cisplatin 與 carboplatin 易因音似/形似混淆；每療程 &gt;100 mg/m2 較少使用，應再次確認。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)] (摘要式整理)
+<ul>
+<li>治療指數狹窄且毒性強，需有細胞毒性治療經驗之醫師監督，並具備處置併發症之設備。</li>
+<li>監測：治療前與後續劑量前監測腎功能 (GFR、BUN、血清肌酸酐、肌酸酐清除率)、電解質 (鎂、鈉、鉀、鈣)、聽力、紅白血球與血小板、肝功能與神經狀態。</li>
+<li>耳毒性：具累積性，可能不可逆，常影響 4000-8000 Hz；建議治療前與治療期間定期聽力檢查；放射線治療可能加重。</li>
+<li>骨髓抑制：與劑量相關且具累積性；白血球與血小板 nadir 常在投予後 18-23 天；需密切監測血球並採取出血/感染預防措施。</li>
+<li>過敏/類過敏反應：可在投藥數分鐘內發生，需備妥腎上腺素、類固醇、抗組織胺等急救處置。</li>
+<li>電解質異常：可致低鎂血症、低鈣血症、低鉀血症等，與腎小管功能障礙相關，需監測與補正。</li>
+<li>神經毒性、視覺異常、心血管事件等亦有通報。</li>
+</ul></li>
+</ul>
+</section>
+<section id="不良反應-adverse-reactions" class="level2">
+<h2 class="anchored" data-anchor-id="不良反應-adverse-reactions">不良反應 (Adverse Reactions)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>常見且重要：噁心嘔吐、骨髓抑制、耳毒性、腎毒性；另有多項上市後通報事件 (心血管/血栓等)。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>耳鳴/高頻聽力喪失：最高可達 31%，通常可逆但與劑量/累積相關。</li>
+<li>視網膜毒性：視力模糊與色覺改變；亦有視神經炎、視乳頭水腫、皮質性盲等少見報告。</li>
+<li>感染/敗血症、血液學異常 (含血栓性微血管病變、骨髓衰竭、嗜中性白血球減少等)、電解質紊亂等在仿單列為重要不良反應/不良事件內容。</li>
+</ul></li>
+</ul>
+</section>
+<section id="交互作用-drug-interactions" class="level2">
+<h2 class="anchored" data-anchor-id="交互作用-drug-interactions">交互作用 (Drug Interactions)</h2>
+<ul>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)] 重點交互作用
+<ul>
+<li>併用具相似細胞毒性之抗腫瘤藥：可能加重毒性。</li>
+<li>腎毒性藥物：aminoglycoside、loop diuretics、amphotericin B 等可能加重腎毒性；ifosfamide 併用或先前用過 cisplatin 者腎毒性可能更大。</li>
+<li>耳毒性藥物：aminoglycoside、loop diuretics 等可加重耳毒性；ifosfamide 可加重 cisplatin 所致聽力損失。</li>
+<li>腎排除藥物：可能改變 bleomycin、methotrexate 的腎排除並增強毒性；併用 bleomycin+etoposide 後少數病例血中鋰濃度降低，建議監測。</li>
+<li>抗痛風藥：可能需調整 allopurinol、colchicine、probenecid、sulfinpyrazone 劑量以控制高尿酸/痛風。</li>
+<li>抗癲癇藥：如 phenytoin 濃度可能下降，建議監測與調整。</li>
+<li>口服抗凝血劑：如 warfarin，建議監測 INR。</li>
+<li>paclitaxel：在 paclitaxel 輸注前給 cisplatin，paclitaxel 廓清率可降低 33%，可能加重神經毒性。</li>
+</ul></li>
+</ul>
+</section>
+<section id="生殖懷孕哺乳-reproductive-pregnancy-lactation" class="level2">
+<h2 class="anchored" data-anchor-id="生殖懷孕哺乳-reproductive-pregnancy-lactation">生殖、懷孕、哺乳 (Reproductive / Pregnancy / Lactation)</h2>
+<ul>
+<li>[UpToDate] 生殖與避孕
+<ul>
+<li>治療前確認可懷孕者之妊娠狀態。</li>
+<li>可懷孕者：治療期間及最後一劑後 14 months 使用有效避孕。</li>
+<li>其伴侶可懷孕者：治療期間及最後一劑後 11 months 使用有效避孕。</li>
+<li>可能造成累積劑量相關之卵巢衰竭/提早停經，亦可能損害精子生成 (少精/無精，可能不可逆)，降低生育力。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>可能損害女性生育力並與卵巢功能衰竭/早發停經相關；亦可能影響男性生育力/精子生成 (仿單段落描述)。</li>
+</ul></li>
+<li>[UpToDate] 懷孕
+<ul>
+<li>cisplatin 可穿越胎盤，可能造成胎兒傷害；曾報告羊水過少、胎兒生長受限、早產，以及新生兒血球低下與聽力損失等。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>懷孕期安全性未確立；可穿越胎盤；動物研究顯示致畸胎性與胚胎毒性；可能具胎兒泌尿生殖道毒性。</li>
+</ul></li>
+<li>[UpToDate] 哺乳
+<ul>
+<li>cisplatin 可存在於乳汁中。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>cisplatin 及其活性代謝物可在母乳中檢出；建議治療期間及最後一劑後 1 個月內不可哺乳，或視母體治療重要性停止治療。</li>
+</ul></li>
+</ul>
+</section>
+<section id="監測-monitoring" class="level2">
+<h2 class="anchored" data-anchor-id="監測-monitoring">監測 (Monitoring)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>血球計數：治療前、每療程前、及臨床需要時監測。</li>
+<li>腎功能與電解質：血清肌酸酐、BUN、CrCl、鈣/鎂/鉀/鈉，治療前及臨床需要時監測。</li>
+<li>聽力/前庭功能：特別是小兒；建議基線、每次給藥前、停藥後追蹤數年。</li>
+<li>神經學檢查：治療前、治療中視需要、治療結束後。</li>
+<li>感染、過敏反應、神經毒性等症狀：治療中與治療後密切觀察。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>仿單建議監測腎功能、電解質、聽力、血球、肝功能與神經狀態 (細節見仿單警語段落)。</li>
+</ul></li>
+</ul>
+</section>
+<section id="用藥安全-medication-safety" class="level2">
+<h2 class="anchored" data-anchor-id="用藥安全-medication-safety">用藥安全 (Medication Safety)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>cisplatin 可能與 carboplatin、oxaliplatin 混淆；Platinol 可能與 Patanol 混淆。</li>
+<li>&gt;100 mg/m2 每療程較少使用，應再次核對處方。</li>
+</ul></li>
+</ul>
+</section>
+<section id="作用機轉-mechanism-of-action" class="level2">
+<h2 class="anchored" data-anchor-id="作用機轉-mechanism-of-action">作用機轉 (Mechanism of Action)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>透過形成 DNA 交聯 (DNA cross-links) 抑制 DNA 合成。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>cisplatin 為鉑化合物，順式異構物具活性；造成 DNA 股內與股間交聯以抑制 DNA 合成，並在較小程度抑制蛋白質與 RNA 合成；非細胞週期特異性。</li>
+</ul></li>
+</ul>
+</section>
+<section id="藥物動力學-pharmacokinetics" class="level2">
+<h2 class="anchored" data-anchor-id="藥物動力學-pharmacokinetics">藥物動力學 (Pharmacokinetics)</h2>
+<ul>
+<li>[UpToDate] (成人為主，部分含小兒)
+<ul>
+<li>分佈：IV 11 to 12 L/m2</li>
+<li>蛋白結合：血漿鉑 &gt;90%</li>
+<li>代謝：非酵素性</li>
+<li>半衰期：成人 cisplatin 20 to 30 minutes；血漿鉑 ≥5 days；小兒游離藥 1.3 hours、總鉑 44 hours</li>
+<li>排泄：尿液為主 (cisplatin 13% to 17% within 1 hour；鉑 35% to 51%)</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>分佈：腎、肝、腸對本藥品均有良好吸收；&gt;90% 含鉑物留於血液並與血漿蛋白結合。</li>
+<li>清除：IV 後前 4 小時血漿鉑總量迅速清除，之後因共價結合而變慢；未結合鉑半衰期 20 minutes 到 1 hour。</li>
+<li>排泄：原型藥與含鉑代謝物經尿液排除；前 2-4 小時約 15-25% 鉑快速排出；前 24 小時 20-80% 排出；血漿鉑總量半衰期約 5 days 或更長。</li>
+</ul></li>
+</ul>
+</section>
+<section id="過量-overdose" class="level2">
+<h2 class="anchored" data-anchor-id="過量-overdose">過量 (Overdose)</h2>
+<ul>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>急性過量可能加劇預期毒性 (腎衰竭、嚴重骨髓抑制、頑固性噁心嘔吐、嚴重神經感覺毒性、肝衰竭等) 並可致死。</li>
+<li>無已知且經證實可用之解毒劑；血液透析可能僅在用藥後最多 3 小時內有部分效果 (鉑快速且廣泛與血漿蛋白結合)。</li>
+<li>建議支持性治療並監測 3-4 週以防延遲性毒性。</li>
+</ul></li>
+</ul>
+</section>
+<section id="危害性藥物處理-hazardous-drug-handling" class="level2">
+<h2 class="anchored" data-anchor-id="危害性藥物處理-hazardous-drug-handling">危害性藥物處理 (Hazardous Drug Handling)</h2>
+<ul>
+<li>[UpToDate]
+<ul>
+<li>危害性藥物 (NIOSH 2024)；接收、儲存、調製、給藥與廢棄應遵循 NIOSH 與 USP 800 及機構規範。</li>
+</ul></li>
+<li>[仿單-廠牌DBL (CISPLATIN INJECTION “DBL”)]
+<ul>
+<li>需受訓人員於指定區域操作，使用個人防護裝備，避免吸入與皮膚/眼睛接觸；廢棄物雙層密封並於 1100 ℃ 焚毀。</li>
+</ul></li>
+</ul>
+</section>
+<section id="參考資料-references" class="level2">
+<h2 class="anchored" data-anchor-id="參考資料-references">參考資料 (References)</h2>
+<ul>
+<li>[UpToDate] Cisplatin: Drug information - UpToDate (Accessed: 2026-01-27)</li>
+<li>[仿單-廠牌DBL] 西伯拉丁注射液 / CISPLATIN INJECTION “DBL” (衛署藥輸字第021782號) (修訂日期: 2025-03-21)</li>
+</ul>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
